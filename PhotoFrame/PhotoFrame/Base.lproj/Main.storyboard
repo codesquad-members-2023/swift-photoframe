@@ -32,8 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-AO-pmU">
-                                <rect key="frame" x="65" y="380" width="263" height="92"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-AO-pmU">
+                                <rect key="frame" x="65" y="381.66666666666669" width="263" height="89"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nce-bx-vhs">
                                         <rect key="frame" x="0.0" y="0.0" width="263" height="55"/>
@@ -42,19 +42,29 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTB-2R-15Y">
-                                        <rect key="frame" x="0.0" y="68" width="263" height="24"/>
+                                        <rect key="frame" x="0.0" y="65" width="263" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSo-ef-PPJ">
+                                <rect key="frame" x="169.66666666666666" y="247.33333333333334" width="53.666666666666657" height="34.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                                <connections>
+                                    <action selector="nextButtonTouched:" destination="Tsd-uo-OLm" eventType="touchUpInside" id="KvC-iN-pvg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IPs-up-arU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="cdK-AO-pmU" firstAttribute="centerY" secondItem="Hyc-AG-Qyr" secondAttribute="centerY" id="2aO-7z-1LF"/>
+                            <constraint firstItem="cdK-AO-pmU" firstAttribute="top" secondItem="vSo-ef-PPJ" secondAttribute="bottom" constant="100" id="GtP-sP-jNE"/>
                             <constraint firstItem="cdK-AO-pmU" firstAttribute="centerX" secondItem="Hyc-AG-Qyr" secondAttribute="centerX" id="kVF-nV-DcS"/>
+                            <constraint firstItem="vSo-ef-PPJ" firstAttribute="centerX" secondItem="Nce-bx-vhs" secondAttribute="centerX" id="lw6-Cn-3ML"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="XfT-tf-NTx"/>
