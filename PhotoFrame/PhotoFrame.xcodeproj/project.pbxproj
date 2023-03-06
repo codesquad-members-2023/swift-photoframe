@@ -49,6 +49,7 @@
 		632F1F1E29B5B18F006E88D7 /* PhotoFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632F1F2229B5B18F006E88D7 /* PhotoFrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFrameUITests.swift; sourceTree = "<group>"; };
 		632F1F2429B5B18F006E88D7 /* PhotoFrameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFrameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		632F1F3129B5B238006E88D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		632F1EF529B5B18D006E88D7 = {
 			isa = PBXGroup;
 			children = (
+				632F1F3129B5B238006E88D7 /* README.md */,
 				632F1F0029B5B18E006E88D7 /* PhotoFrame */,
 				632F1F1729B5B18F006E88D7 /* PhotoFrameTests */,
 				632F1F2129B5B18F006E88D7 /* PhotoFrameUITests */,

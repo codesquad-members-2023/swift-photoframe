@@ -1,19 +1,13 @@
-//
-//  ViewController.swift
-//  PhotoFrame
-//
-//  Created by 1 on 2023/03/06.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
+    
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print(#file, #line, #function, #column)
+        
     }
-
-
+    
+    @IBOutlet weak var photoLabel: UILabel!
 }
 
