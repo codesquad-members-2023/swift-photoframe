@@ -141,3 +141,4 @@ TabBarController 메소드 구현 추가 후에 실행한 모습
 YellowViewController viewDidLoad 에 print(self, #function)을 추가해서 제대로 연결 되었는지 확인
 
 ![스크린샷 2023-03-06 15.28.08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ca069df-560a-440e-908e-c8d7c1a042b2/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-03-06_15.28.08.png)
+
