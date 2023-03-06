@@ -3,6 +3,8 @@
 
 ## 학습 계획
 
+<img src="https://user-images.githubusercontent.com/63908856/223042897-e4073356-dd9f-4704-89d8-690e5c36cd51.png" width="500">
+
 - [ ] iOS 프로젝트 그룹/타깃에 관해 학습
 - [ ] [ViewController Programming Guide](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457-CH2-SW1) 학습
 - [ ] [UIKit View Management](https://developer.apple.com/documentation/uikit/view_controllers) 클래스 학습
