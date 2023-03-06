@@ -1,10 +1,11 @@
-# swift-photoframe
+# ❗️swift-photoframe❗️
 1주차 사진액자 프로젝트
 
-# 체크리스트
+# ❗️체크리스트❗️
 1-1
 - [ ] 탭바컨트롤러를 만들어 두 개 Scene 중에 첫 번째 Scene에 Custom Class를 ViewController로 지정하기
 - [ ] print(#file, #line, #function, #column) 실행해보기
+<img src="https://user-images.githubusercontent.com/97685264/223127234-c8aaab85-955d-42f1-9bda-8310c49cbb8e.png">
 - [ ] UITabBarController 와 UITabBar에 대해 학습하기
 1-2
 - [ ] IBOutlet 연결하기
@@ -37,4 +38,6 @@
 - [ ] 앨범에서 선택하기
 - [ ] UIImagePickerController처럼 이미 만들어놓은 시스템 컨트롤러들에 대해 학습하기
 - [ ] 델리게이트(Delegate)와 프로토콜(Protocol) 상관 관계에 대해 학습하기
+
+
 
