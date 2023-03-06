@@ -83,3 +83,5 @@
 TabBarController 메소드 구현 추가 후에 실행한 모습
 
 # 2. IBOutlet 연결하기
+
+# 3. IBAction 연결하기
