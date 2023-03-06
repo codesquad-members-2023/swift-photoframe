@@ -14,8 +14,8 @@
 
 ### 2. IBOutlet 연결하기
 
-- [ ]  label 에 outlet 연결하기
-- [ ]  label 속성 바꾸면서 놀기
+- [X]  label 에 outlet 연결하기
+- [X]  label 속성 바꾸면서 놀기
 - [ ]  추가 학습
     - [ ]  UILabel 클래스 속성 알아보기
 
@@ -81,3 +81,5 @@
 # 1. 프로젝트 생성하기
 
 TabBarController 메소드 구현 추가 후에 실행한 모습
+
+# 2. IBOutlet 연결하기
