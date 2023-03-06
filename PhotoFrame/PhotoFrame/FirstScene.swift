@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class FirstScene: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
     
         super.viewDidLoad()
