@@ -15,5 +15,4 @@
 - [ ] [뷰 컨트롤러 생명주기](https://developer.apple.com/documentation/uikit/uiviewcontroller) 학습
 - [ ] [뷰 컨트롤러 컨테이너](https://developer.apple.com/documentation/uikit/view_controllers/creating_a_custom_container_view_controller) 학습
 - [ ] 앱 번들 리소스 학습
-- [ ] 뷰 컨트롤러의 뷰 학습
 - [ ] [ImagePickerController](https://developer.apple.com/documentation/uikit/uiimagepickercontrollerdelegate/1619126-imagepickercontroller) 학습
