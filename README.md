@@ -25,6 +25,18 @@
 - TabBar위에 표기되는 이름 변경
     - 대상 Scene 누르고 우측 Title 변경 
 
+- print(#file, #line, #function, #column)
+    
+        /Users/song/Desktop/WORKSPACE/GIT/마스터즈코스/swift-photoframe/PhotoFrame/PhotoFrame/ViewController.swift 14 viewDidLoad() 40
+    
+    - #file : /Users/song/Desktop/WORKSPACE/GIT/마스터즈코스/swift-photoframe/PhotoFrame/PhotoFrame/ViewController.swift
+    - #line : 14
+    - #function : viewDidLoad()
+    - #column : 40 
+    
+    <img width="612" alt="스크린샷 2023-03-06 오후 4 03 37" src="https://user-images.githubusercontent.com/88966578/223041091-73058949-f675-454f-bdeb-3e89df4285a6.png">
+
+    
 ### IBOutlet 연결하기
 
 - 
