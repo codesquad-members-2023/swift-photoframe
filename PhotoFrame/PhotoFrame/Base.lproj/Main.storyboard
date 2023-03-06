@@ -27,14 +27,41 @@
         <!--Item 1-->
         <scene sceneID="C2S-BY-PDd">
             <objects>
-                <viewController id="Tsd-uo-OLm" customClass="ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tsd-uo-OLm" customClass="FirstViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hyc-AG-Qyr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-AO-pmU">
+                                <rect key="frame" x="65" y="380" width="263" height="92"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nce-bx-vhs">
+                                        <rect key="frame" x="0.0" y="0.0" width="263" height="55"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTB-2R-15Y">
+                                        <rect key="frame" x="0.0" y="68" width="263" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IPs-up-arU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cdK-AO-pmU" firstAttribute="centerY" secondItem="Hyc-AG-Qyr" secondAttribute="centerY" id="2aO-7z-1LF"/>
+                            <constraint firstItem="cdK-AO-pmU" firstAttribute="centerX" secondItem="Hyc-AG-Qyr" secondAttribute="centerX" id="kVF-nV-DcS"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="XfT-tf-NTx"/>
+                    <connections>
+                        <outlet property="firstDescription" destination="PTB-2R-15Y" id="rTv-ym-TgT"/>
+                        <outlet property="photoLabel" destination="Nce-bx-vhs" id="IVd-6L-xcd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKn-vX-TxT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
