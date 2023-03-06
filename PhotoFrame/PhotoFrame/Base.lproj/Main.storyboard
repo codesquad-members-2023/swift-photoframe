@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="-750" y="-337"/>
         </scene>
-        <!--View Controller-->
+        <!--Yellow View Controller-->
         <scene sceneID="Aze-s9-3PP">
             <objects>
-                <viewController id="r2o-4M-S0z" sceneMemberID="viewController">
+                <viewController id="r2o-4M-S0z" customClass="YellowViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2NK-yC-c1R">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
