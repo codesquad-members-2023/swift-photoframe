@@ -3,7 +3,7 @@
 
 # 체크리스트
 1-1
-- [ ] 프로젝트 생성하기
+- [ ] 탭바컨트롤러를 만들어 두 개 Scene 중에 첫 번째 Scene에 Custom Class를 ViewController로 지정하기
 - [ ] print(#file, #line, #function, #column) 실행해보기
 - [ ] UITabBarController 와 UITabBar에 대해 학습하기
 1-2
