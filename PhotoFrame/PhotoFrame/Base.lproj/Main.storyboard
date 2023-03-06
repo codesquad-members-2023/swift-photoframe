@@ -11,7 +11,7 @@
         <!--Item 2-->
         <scene sceneID="0Q1-s2-V2M">
             <objects>
-                <viewController id="qLv-cb-Cdy" sceneMemberID="viewController">
+                <viewController id="qLv-cb-Cdy" customClass="SecondScene" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vlE-3d-qMc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
         <!--Item 1-->
         <scene sceneID="hd4-L3-ttC">
             <objects>
-                <viewController id="jCu-lt-4x0" customClass="ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jCu-lt-4x0" customClass="FirstScene" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Wk-Nx-FYC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
