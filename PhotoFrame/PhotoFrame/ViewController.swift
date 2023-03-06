@@ -26,6 +26,8 @@ class ViewController: UIViewController {
             self.photoLabel.backgroundColor = UIColor.yellow
             self.photoLabel.alpha = 0.5
     }
+
+    
     
 }
 

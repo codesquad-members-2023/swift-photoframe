@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="79" y="116"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="4En-sa-k6r">
             <objects>
                 <viewController id="1Ex-Rf-JsR" customClass="ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,21 +53,21 @@
                         <viewLayoutGuide key="safeArea" id="w2x-ep-tKf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="ly2-V7-jjF"/>
+                    <navigationItem key="navigationItem" id="fSk-oF-Xan"/>
                     <connections>
                         <outlet property="photoLabel" destination="YHJ-M0-7mF" id="7eG-Be-5b2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVE-BW-m1V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="78.625954198473281" y="-672.53521126760563"/>
+            <point key="canvasLocation" x="1005.3435114503816" y="-672.53521126760563"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Yellow-->
         <scene sceneID="Pec-Mo-xmU">
             <objects>
-                <viewController id="x6I-k2-gDj" sceneMemberID="viewController">
+                <viewController id="x6I-k2-gDj" customClass="ViewControllerYellow" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MI9-RW-NH5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmD-Gc-nrE">
@@ -79,6 +79,19 @@
                                     <segue destination="ET9-3T-rJG" kind="show" id="vho-oe-bjj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQl-1T-hce">
+                                <rect key="frame" x="170" y="385" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기">
+                                    <color key="baseForegroundColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="closeButtonTouched:" destination="XR8-W4-KPE" eventType="touchUpInside" id="ahJ-gA-Kui"/>
+                                    <action selector="closeButtonTouched:" destination="ET9-3T-rJG" eventType="touchUpInside" id="wxK-Rn-Jkz"/>
+                                    <action selector="closeButtonTouched:" destination="x6I-k2-gDj" eventType="touchUpInside" id="y91-KU-rAo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PXF-Av-f7j"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -86,8 +99,9 @@
                     <navigationItem key="navigationItem" id="Ruc-Mo-5Ld"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B7p-dI-q8V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="XR8-W4-KPE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="850" y="-673"/>
+            <point key="canvasLocation" x="1776.3358778625955" y="-673.23943661971839"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tht-Vm-1aW">
@@ -99,7 +113,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="1Ex-Rf-JsR" kind="relationship" relationship="viewControllers" id="1n3-BC-Z1x"/>
+                        <segue destination="coJ-re-BES" kind="relationship" relationship="viewControllers" id="1n3-BC-Z1x"/>
                         <segue destination="Du3-tw-lY4" kind="relationship" relationship="viewControllers" id="RGV-es-OBS"/>
                     </connections>
                 </tabBarController>
@@ -112,7 +126,7 @@
             <objects>
                 <viewController id="ET9-3T-rJG" customClass="YellowViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XFJ-Nx-WyM">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMD-vw-WXJ">
@@ -134,7 +148,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytF-MS-3PO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1620.6106870229007" y="-673.23943661971839"/>
+            <point key="canvasLocation" x="2547.3282442748091" y="-673.23943661971839"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="6qi-eX-qaN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="coJ-re-BES" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="ly2-V7-jjF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cUa-Fm-lUk">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Ex-Rf-JsR" kind="relationship" relationship="rootViewController" id="fgR-ew-Ztu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6us-j3-Bdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78.625954198473281" y="-672.53521126760563"/>
         </scene>
     </scenes>
     <resources>
