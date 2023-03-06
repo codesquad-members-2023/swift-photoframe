@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
+class AppFirstView: UIViewController {
 
     
     @IBOutlet weak var photoLabel: UILabel!
@@ -32,7 +32,6 @@ class ViewController2: UIViewController {
     
 
     @IBAction func nextButtonTouched(_ sender: UIButton) {
-        
         self.photoLabel.textColor = UIColor.blue
         self.photoLabel.backgroundColor = .yellow
         self.photoLabel.alpha = 0.0
