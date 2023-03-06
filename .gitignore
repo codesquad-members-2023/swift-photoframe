@@ -89,3 +89,9 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+PhotoFrameTests/
+PhotoFrameUITests/
+AppIcon.appiconset/
+AccentColor.colorset
+
+
