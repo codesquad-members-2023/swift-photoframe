@@ -12,6 +12,8 @@
 ## 기능 요구사항
 1. app project 생성
 2. TabBar Controller 생성후 Scene 연결
+    - Identity Inspector에서 custom class 설정
+    - ViewController.swift에 print 추가
 3. 레이블 추가
 4. 버튼 추가
 5. 버튼 클릭시 새로운 scene 구현
