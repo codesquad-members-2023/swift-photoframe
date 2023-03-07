@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E413D4F629B591C600419987 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413D4F529B591C600419987 /* ItemViewController.swift */; };
+		E413D51A29B6D0E900419987 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413D51929B6D0E900419987 /* FirstViewController.swift */; };
+		E413D51C29B6D0F800419987 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413D51B29B6D0F800419987 /* SecondViewController.swift */; };
 		E45422F929B5845200CD5BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45422F829B5845200CD5BBB /* AppDelegate.swift */; };
 		E45422FB29B5845200CD5BBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45422FA29B5845200CD5BBB /* SceneDelegate.swift */; };
-		E45422FD29B5845200CD5BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45422FC29B5845200CD5BBB /* ViewController.swift */; };
 		E454230029B5845200CD5BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45422FE29B5845200CD5BBB /* Main.storyboard */; };
 		E454230229B5845300CD5BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E454230129B5845300CD5BBB /* Assets.xcassets */; };
 		E454230529B5845300CD5BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E454230329B5845300CD5BBB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E413D4F529B591C600419987 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		E413D51929B6D0E900419987 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E413D51B29B6D0F800419987 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E45422F529B5845200CD5BBB /* PhotoFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45422F829B5845200CD5BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45422FA29B5845200CD5BBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E45422FC29B5845200CD5BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E45422FF29B5845200CD5BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E454230129B5845300CD5BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E454230429B5845300CD5BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,9 +60,9 @@
 			children = (
 				E45422F829B5845200CD5BBB /* AppDelegate.swift */,
 				E45422FA29B5845200CD5BBB /* SceneDelegate.swift */,
-				E45422FC29B5845200CD5BBB /* ViewController.swift */,
+				E413D51929B6D0E900419987 /* FirstViewController.swift */,
+				E413D51B29B6D0F800419987 /* SecondViewController.swift */,
 				E45422FE29B5845200CD5BBB /* Main.storyboard */,
-				E413D4F529B591C600419987 /* ItemViewController.swift */,
 				E454230129B5845300CD5BBB /* Assets.xcassets */,
 				E454230329B5845300CD5BBB /* LaunchScreen.storyboard */,
 				E454230629B5845300CD5BBB /* Info.plist */,
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E45422FD29B5845200CD5BBB /* ViewController.swift in Sources */,
-				E413D4F629B591C600419987 /* ItemViewController.swift in Sources */,
+				E413D51C29B6D0F800419987 /* SecondViewController.swift in Sources */,
+				E413D51A29B6D0E900419987 /* FirstViewController.swift in Sources */,
 				E45422F929B5845200CD5BBB /* AppDelegate.swift in Sources */,
 				E45422FB29B5845200CD5BBB /* SceneDelegate.swift in Sources */,
 			);
