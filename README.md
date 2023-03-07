@@ -16,3 +16,20 @@
 - [ ] [뷰 컨트롤러 컨테이너](https://developer.apple.com/documentation/uikit/view_controllers/creating_a_custom_container_view_controller) 학습
 - [ ] 앱 번들 리소스 학습
 - [ ] [ImagePickerController](https://developer.apple.com/documentation/uikit/uiimagepickercontrollerdelegate/1619126-imagepickercontroller) 학습
+
+## 업무용 체크리스트
+**step 1-1**
+- [ ] iOS 프로젝트 생성 w/ App template
+    - [ ] .gitignore 추가
+    - [ ] Storyboard interface 설정
+    - [ ] 나의 의도가 들어가지 않은 주석, 파일 삭제
+- [ ] TabBarController 추가
+    - [ ] InitialController 지정
+    - [ ] Scene 추가
+    - [ ] TabBarController Tab 갯수 2개로 지정
+    - [ ] TabBarController Tab Scene 지정
+- [ ] UIViewController 추가
+    - [ ] Scene의 Custom Class가 될 UIViewController를 상속받는 클래스 생성
+    - [ ] Storyboard ViewController Scene Custom Class 지정
+- [ ] viewDidLoad() 코드 추가
+    - [ ] #file, #line, #function, #column 코드 추가
