@@ -1,68 +1,28 @@
 # swift-photoframe
 1주차 사진액자 프로젝트
 
-# 학습 키워드
-
 ## 프로젝트 생성하기
 
-브랜치 생성, 커밋, 푸쉬, PR, README 작성
+### Check List
 
-View management class ?
+- [X]  Github 저장소를 내 저장소로 Fork 후 Clone 하기
+- [X]  Clone 한 저장소 경로에 PhotoFrame 이름으로 iOS App 프로젝트 생성
+- [X]  readme.md 파일 프로젝트 설명 작성 * 단계별로 미션을 해결 하고, 리뷰를 받으면 readme 파일 내용 수정 *
+- [X]  TabBar Controller 추가
+- [X]  추가한 TabBar Controller 를 Intial ViewController 지정
+- [X]  TabBar Controller 에 Scene 2개를 연결
+- [X]  첫 번째 Scene의 Custom Class를 ViewController로 지정
+- [X]  viewDidLoad() 함수에서 print(#file, #line, #function, #column) 코드를 추가 하고 console 에 어떤게 출력되는지 확인
+- [X]  실행 화면 캡쳐해서 readme.md 파일에 추가
 
-UIToolBar & UIToolBarController 학습 및 둘의 차이점은 무엇?
+### 학습 List
 
-관련된 클래스는 무엇이 있는가? 어떤 경우에 사용하는가
+- [ ]  View Management Class
+- [ ]  ViewDidLoad
+- [ ]  UIToolBar
+- [ ]  UIToolbarController
+- [ ]  #file #line #function #column
 
-## IBOutlet 연결
+### 실행 화면 캡쳐
+<img width="866" alt="스크린샷 2023-03-06 오후 4 34 40" src="https://user-images.githubusercontent.com/90844696/223309084-403382b1-b49e-4c4f-bd33-d17165836fe4.png">
 
-IBOutlet 연결 ? 아울렛 변수?
-
-UILabel 클래스 속성에는 어떤게 있을까?
-
-## IBAction
-
-IBOutlet VS IBAction 둘의 차이는 무엇인가
-
-버튼에 어떤 이벤트들을 적용할 수 있는지? 한 버튼에 여러 액션을 적용할 수 있는지?
-
-여러 버튼을 동시에 하나의 액션으로 연결할 수 있는지?
-
-## Scene 을 Sugue로 연결하기
-
-Scene은 뭐고 Sugue는 뭔지?
-
-Sugue의 액션에는 어떤 것들이 어떤 역할을 하는지?
-
-## ViewController 연결하기
-
-뷰컨트롤러
-
-뷰컨트롤러 라이프 사이플은 무엇인가?
-
-## Container ViewController 활용하기
-
-뷰컨트롤러 컨테이너란?
-
-네비게이션 컨트롤러란?
-
-뷰컨트롤러 컨테이너는 또 무슨 클래스가 있을까?
-
-네비게이션 컨트롤러 있을 때 없을 때 무슨 차이가 있는가?
-
-네비게이션 컨트롤러 관련 메서드는 왜 push & pop 인지?
-
-## 다른 화면 연결하기
-
-UIImageView 랑 UIImage의 차이
-
-Xcode 프로젝트에 번들 리소스를 추가할려면?
-
-이미지 뷰의 속성
-
-## 사진 앨범 선택하기
-
-UIImagePickerController
-
-델리게이트
-
-델리게이트랑 프로토콜
