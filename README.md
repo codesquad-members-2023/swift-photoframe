@@ -38,8 +38,21 @@
 
     
 ### IBOutlet 연결하기
+- Label 추가하고 Outlet변수 연결 
+<img width="259" alt="스크린샷 2023-03-07 오전 10 51 48" src="https://user-images.githubusercontent.com/88966578/223304266-58970162-2934-406e-945c-5cb038ce5dcf.png">
 
-- 
+    - storage weak / strong ? 
+     
+        Outlet 변수를 추가할 때 나오는 팝업창의 Storage라는 항목에서 strong과 weak을 선택할 수 있다. 일반적으로 객체를 참조하기 위한 아웃렛 변수는 strong이 기본값으로 설정되어 있다.
+        storng으로 선언된 변수들끼리 상호 참조하는 일이 생길 경우에는 앱이 종료되기 전까지는 메모리에서 제거되지 않기 때문에 메모리 누수가 발생한 경우 어느 한 변수 또는 모든 변수를 weak로 지정하         면 시스템에서 임의로 제거할 수 있으므로 상호 참조할 때에도 사용하지 않을 경우에는 메모리가 삭제 될 수 있음.
+        => 메모리 관리에 용이함.
+
+- UILabel 클래스 Property 변경
+<img width="257" alt="스크린샷 2023-03-07 오전 11 23 23" src="https://user-images.githubusercontent.com/88966578/223305537-9f6b397d-f330-41ae-8ba6-4a29da97af44.png">
+    - 우측 인터페이스에서 하나하나 손수 변경 할 수 있지만, 
+<img width="385" alt="스크린샷 2023-03-07 오전 11 23 14" src="https://user-images.githubusercontent.com/88966578/223305637-1260cbeb-c323-4e9a-bde9-603c48420bf8.png">
+    - 코드로도 변경 할 수 있다. 
+
 
 ### IBAction 연결하기
 
