@@ -3,11 +3,6 @@
 
 # ❗️체크리스트❗️
 1-1
-<<<<<<< HEAD
-- [x] 탭바컨트롤러를 만들어 두 개 Scene 중에 첫 번째 Scene에 Custom Class를 ViewController로 지정하기
-- [x] print(#file, #line, #function, #column) 실행해보기
-<img src="https://user-images.githubusercontent.com/97685264/223127234-c8aaab85-955d-42f1-9bda-8310c49cbb8e.png">
-=======
 - [x] 탭바컨트롤러를 만들어 두 개 Scene 중에 첫 번째 Scene에 Custom Class를 ViewController로 지정하기
 - [x] print(#file, #line, #function, #column) 실행해보기
 <img src="https://user-images.githubusercontent.com/97685264/223127234-c8aaab85-955d-42f1-9bda-8310c49cbb8e.png">
