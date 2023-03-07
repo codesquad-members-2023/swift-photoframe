@@ -51,7 +51,7 @@
 <img width="257" alt="스크린샷 2023-03-07 오전 11 23 23" src="https://user-images.githubusercontent.com/88966578/223305537-9f6b397d-f330-41ae-8ba6-4a29da97af44.png">
     - 우측 인터페이스에서 하나하나 손수 변경 할 수 있지만, 
 <img width="385" alt="스크린샷 2023-03-07 오전 11 23 14" src="https://user-images.githubusercontent.com/88966578/223305637-1260cbeb-c323-4e9a-bde9-603c48420bf8.png">
-    - 코드로도 변경 할 수 있다. 
+    - 코드로도 변경 할 수 있다. 모든 항목이 다 존재하는 것으로 추정된다. 
 
 
 ### IBAction 연결하기
