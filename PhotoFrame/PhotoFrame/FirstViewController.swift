@@ -14,9 +14,12 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         print(#file, #line, #function, #column)
+        
+        firstLabel.textColor = firstLabel.textColor.withAlphaComponent(0.5)
+
     }
     
-    
+        
     
     
 }
