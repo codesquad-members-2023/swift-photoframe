@@ -16,7 +16,7 @@
 - [x] UILabel 클래스 속성(Property)는 어떤게 있는지 학습하기(학습-2)
 
 1-3
-- [x] IBAction 연결하기
+- [ ] IBAction 연결하기
 - [ ] IBAction 과 IBOutlet 연결 구조에 대해 이해한 내용을 정리하기
 - [ ] 버튼에 IBAction을 추가할 때 이벤트(Event) 종류에는 어떤 것들이 있는지 학습하기
 

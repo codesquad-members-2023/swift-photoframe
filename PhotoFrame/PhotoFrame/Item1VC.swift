@@ -7,9 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Item1VC: UIViewController {
 
-    @IBOutlet weak var firstView: UILabel!
+    @IBOutlet weak var firstLabel: UILabel!
     
     @IBOutlet weak var firstDescription: UILabel!
     
@@ -18,22 +18,18 @@ class ViewController: UIViewController {
         
         print(#file, #line, #function, #column)
         
-        //firstView
-        self.firstView.text = "haena의 사진액자"
-        self.firstView.textColor = self.firstView.textColor.withAlphaComponent(0.5)
         
-        //firstDescription
+        self.firstLabel.text = "haena의 사진액자"
+        self.firstLabel.textColor = self.firstLabel.textColor.withAlphaComponent(0.5)
+        
+        
         firstDescription.text = "밑에있지롱"
         firstDescription.textColor = .blue
         firstDescription.font = .systemFont(ofSize: 10)
         firstDescription.backgroundColor = .orange
     }
 
-    @IBAction func nextButtonTouched(_ sender: Any) {
-        firstView.textColor = UIColor.blue
-            firstView.backgroundColor = UIColor.yellow
-            firstView.alpha = 0.5
-    }
+   
     
 }
 
