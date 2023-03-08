@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         print(#file, #line, #function, #column)
         
+        self.firstView.textColor = self.firstView.textColor.withAlphaComponent(0.5)
     }
 
 
