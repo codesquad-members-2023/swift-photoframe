@@ -12,13 +12,13 @@
 
 ### 2. IBOutlet 연결하기
 
-- [ ]  label 에 outlet 연결하기
-- [ ]  label 속성 바꿔보기
+- [x]  label 에 outlet 연결하기
+- [x]  label 속성 바꿔보기
 
 ### 3. IBAction 연결하기
 
-- [ ]  버튼 추가하고 액션으로 연결
-- [ ]  메서드 구현 추가
+- [X]  버튼 추가하고 액션으로 연결
+- [X]  메서드 구현 추가
 
 ### 4. Scene을 Segue로 연결하기
 
@@ -70,7 +70,7 @@
 - [ ]  UIKit View Management 클래스
 - [ ]  UITabBarController 관련 학습
 
-- [ ]  UILabel 클래스 속성 알아보기
+- [x]  UILabel 클래스 속성 알아보기
 - [ ]  이벤트 종류 학습
 - [ ]  버튼에 액션 여러 개 될까? vs. 여러 버튼 하나의 액션 될까?
 
