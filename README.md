@@ -20,6 +20,7 @@
     - IBOutlet 연
     - [x] firstLabel 커스텀
 4. 버튼 추가
+    - [x] IBAction 연결
 5. 버튼 클릭시 새로운 scene 구현
 6. 닫기 버튼 추가, 새로운 scene 닫힘 구현
 7. 이미지 추가기능 구현

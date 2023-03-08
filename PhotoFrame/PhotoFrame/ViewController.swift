@@ -21,6 +21,11 @@ class FirstViewController: UIViewController {
         self.firstTitle.text = "Sol의 액자"
     }
 
-
+    @IBAction func nextButtonTouched(_ sender: UIButton) {
+        self.firstTitle.textColor = UIColor.blue
+        self.firstTitle.backgroundColor = UIColor.yellow
+        self.firstTitle.alpha = 0.5
+    }
+    
 }
 
