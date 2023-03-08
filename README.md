@@ -21,6 +21,10 @@
     - [x] firstLabel 커스텀
 4. 버튼 추가
     - [x] IBAction 연결
+    - 버튼 탭 전
+        <img width="384" alt="1" src="https://user-images.githubusercontent.com/86761640/223652431-fdd78e4a-99f9-42f7-97b1-d7e4b64da097.png">
+    - 버튼 탭 후
+        <img width="391" alt="2" src="https://user-images.githubusercontent.com/86761640/223652443-46d97d3e-0cf9-44c3-9fea-01bbd906604a.png">
 5. 버튼 클릭시 새로운 scene 구현
 6. 닫기 버튼 추가, 새로운 scene 닫힘 구현
 7. 이미지 추가기능 구현
