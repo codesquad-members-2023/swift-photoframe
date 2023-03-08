@@ -14,7 +14,11 @@ class Item1ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.firstScene.textColor = .red
+        self.firstScene.alpha = 1.0
         
+        self.firstDesc.textColor = .purple
+        self.firstDesc.alpha = 0.5
     }
 
 }
