@@ -14,7 +14,11 @@ class Item2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.secondScene.textColor = .blue
+        self.secondScene.alpha = 1.0
+        
+        self.secondDesc.textColor = .cyan
+        self.secondDesc.alpha = 0.5
     }
 
 }
