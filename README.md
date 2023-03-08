@@ -81,7 +81,16 @@ upstream [울버린] 브랜치에 addGitIgnore 브랜치가 반영되었다. 아
 
 ### IBOutlet 연결하기
 
-- 
+- 스토리보드에 UILabel 추가하고 , Outlet변수에 연결하기 
+<img width="259" alt="스크린샷 2023-03-07 오전 10 51 48" src="https://user-images.githubusercontent.com/88966578/223640380-e008454a-1364-48b2-b20b-c0e1c91a0b2b.png">
+control + 드래그로 Outlet변수 선언+연결을 할 수 있다. 
+
+- UILabel 프로퍼티 변경하기 
+    <img width="385" alt="스크린샷 2023-03-07 오전 11 23 14" src="https://user-images.githubusercontent.com/88966578/223640618-054fdc81-e9b2-4650-820e-87f2d7ccd832.png">
+    일반적으로 클래스의 프로퍼티에 접근하듯이 .구문으로 변경 가능하고 , 
+    <img width="257" alt="스크린샷 2023-03-07 오전 11 23 23" src="https://user-images.githubusercontent.com/88966578/223641008-b5b68fd3-a33e-47c7-81b8-e18fc88ceed6.png">
+    우측 인터페이스에서 하나하나 컨트롤가능하다. 
+
 
 ### IBAction 연결하기
 
