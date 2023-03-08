@@ -12,7 +12,7 @@
 1-2
 - [x] IBOutlet 연결하기
 - [x] firstLabel의 속성을 변경(글자색, 배경색, 투명도, 글자 크기를 바꿔보기)
-- [ ] rstLabel 아래 있는 레이블도 firstDescription 아웃렛으로 연결하여 값을 변경하여 꾸며보기
+- [x] rstLabel 아래 있는 레이블도 firstDescription 아웃렛으로 연결하여 값을 변경하여 꾸며보기
 - [ ] UILabel 클래스 속성(Property)는 어떤게 있는지 학습하기
 
 1-3
