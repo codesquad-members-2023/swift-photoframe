@@ -9,9 +9,12 @@ import UIKit
 
 class Item1ViewController: UIViewController {
 
+    @IBOutlet weak var firstDesc: UILabel!
+    @IBOutlet weak var firstScene: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
 
 }
