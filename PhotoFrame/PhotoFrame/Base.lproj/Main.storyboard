@@ -11,7 +11,7 @@
         <!--item 1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="item 1" id="BYZ-38-t0r" customClass="ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="item 1" id="BYZ-38-t0r" customClass="Item1ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
         <!--item 2-->
         <scene sceneID="qib-AC-fCe">
             <objects>
-                <viewController title="item 2" id="cqX-pi-Nhg" customClass="ItemViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="item 2" id="cqX-pi-Nhg" customClass="Item2ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BCO-a2-zWx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
