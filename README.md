@@ -7,13 +7,13 @@
 - [x] print(#file, #line, #function, #column) 실행해보기
 <img src="https://user-images.githubusercontent.com/97685264/223127234-c8aaab85-955d-42f1-9bda-8310c49cbb8e.png">
 
-- [x] UITabBarController 와 UITabBar에 대해 학습하기
+- [x] UITabBarController 와 UITabBar에 대해 학습하기(학습-1)
 
 1-2
 - [x] IBOutlet 연결하기
 - [x] firstLabel의 속성을 변경(글자색, 배경색, 투명도, 글자 크기를 바꿔보기)
 - [x] rstLabel 아래 있는 레이블도 firstDescription 아웃렛으로 연결하여 값을 변경하여 꾸며보기
-- [ ] UILabel 클래스 속성(Property)는 어떤게 있는지 학습하기
+- [x] UILabel 클래스 속성(Property)는 어떤게 있는지 학습하기(학습-2)
 
 1-3
 - [ ] IBAction 연결하기
@@ -47,10 +47,18 @@
 - [ ] UIImagePickerController처럼 이미 만들어놓은 시스템 컨트롤러들에 대해 학습하기
 - [ ] 델리게이트(Delegate)와 프로토콜(Protocol) 상관 관계에 대해 학습하기
 
+- - -
 # ❗️학습❗️
 ### 1. UITabBarController 와 UITabBar에 대해 학습하기
 #### UITabBar란 하나의 뷰이고, 화면 하단에 위치해있다. radio style이라 한번에 하나만 선택이 가능하다.
 #### UITabBarController란 탭바를 사용하여 다른 view등 쉽게 전환할 수 있다.
 #### 결국 탭바를 누르면 탭바컨트롤러가 그에 상응하는 액션을 취한다.
 <img src="https://user-images.githubusercontent.com/97685264/223128583-d7f9b1ff-180e-4bec-bcdd-3e1ee2ff7121.png">
+ 
+ - - -
 
+### 2. UILabel 클래스 속성(Property)는 어떤게 있는지 학습하기
+#### 텍스트 컬러, 폰트(크기, 굴게..등), 나열, 베이스라인, 그림자 등이 있다.
+<img src="https://user-images.githubusercontent.com/97685264/223303146-27768ccb-3046-4070-8ec9-f643ebeb69c4.png">
+
+- - -
