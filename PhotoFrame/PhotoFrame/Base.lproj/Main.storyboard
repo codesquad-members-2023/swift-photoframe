@@ -27,18 +27,45 @@
         <!--Item 1-->
         <scene sceneID="C2S-BY-PDd">
             <objects>
-                <viewController id="Tsd-uo-OLm" customClass="ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tsd-uo-OLm" customClass="FirstViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hyc-AG-Qyr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vi4-6R-GPx">
+                                <rect key="frame" x="82.333333333333329" y="386" width="228.66666666666669" height="80.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ar-xe-pkO">
+                                        <rect key="frame" x="0.0" y="0.0" width="228.66666666666666" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqH-AN-Iog">
+                                        <rect key="frame" x="0.0" y="60.000000000000007" width="228.66666666666666" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IPs-up-arU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vi4-6R-GPx" firstAttribute="centerY" secondItem="Hyc-AG-Qyr" secondAttribute="centerY" id="2J0-G7-cVd"/>
+                            <constraint firstItem="vi4-6R-GPx" firstAttribute="centerX" secondItem="Hyc-AG-Qyr" secondAttribute="centerX" id="gjc-MS-gDx"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="XfT-tf-NTx"/>
+                    <connections>
+                        <outlet property="firstDescription" destination="DqH-AN-Iog" id="mCz-GQ-8p7"/>
+                        <outlet property="firstLabel" destination="6Ar-xe-pkO" id="uCI-qe-Ux8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKn-vX-TxT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-750" y="-337"/>
+            <point key="canvasLocation" x="-750.38167938931292" y="-337.32394366197184"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yyz-xp-ahF">
