@@ -13,9 +13,6 @@ class FirstViewController: UIViewController {
   
   @IBOutlet weak var firstDescriptionLabel: UILabel!
   
-  /// 첫번째 화면이 메모리에 로드될 때 호출됩니다.
-  ///
-  /// 화면이 로드될 때 화면의 label 속성을 설정합니다.
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -27,4 +24,11 @@ class FirstViewController: UIViewController {
     let aString = NSAttributedString(string: "by Effie @CodeSquad", attributes: attribute)
     firstDescriptionLabel.attributedText = aString
   }
+  
+  @IBAction func nextButtonTouched(_ sender: Any) {
+    firstTitleLabel.textColor = UIColor.blue
+    firstTitleLabel.backgroundColor = UIColor.yellow
+    firstTitleLabel.alpha = 0.5
+  }
+  
 }
