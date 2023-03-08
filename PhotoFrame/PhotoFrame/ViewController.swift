@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         print(#file, #line, #function, #column)
         
         //firstView
+        self.firstView.text = "haena의 사진액자"
         self.firstView.textColor = self.firstView.textColor.withAlphaComponent(0.5)
         
         //firstDescription
