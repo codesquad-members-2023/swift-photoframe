@@ -28,5 +28,10 @@
     
         <img width="391" alt="2" src="https://user-images.githubusercontent.com/86761640/223652443-46d97d3e-0cf9-44c3-9fea-01bbd906604a.png">
 5. 버튼 클릭시 새로운 scene 구현
+    - [ ] ViewController 생성
+    - [ ] Scene 연결
+    - Scene 연결시 선택되는 show, show detail, Present Modally 등 어떤 기능인지 확인하
+    - Segue 속성 확
+    - [ ] 다음 버튼을 누르면 색상이 변경된 화면이 나오는 2개의 viewController를 직렬로 연결
 6. 닫기 버튼 추가, 새로운 scene 닫힘 구현
 7. 이미지 추가기능 구현
