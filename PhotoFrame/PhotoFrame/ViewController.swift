@@ -29,6 +29,11 @@ class ViewController: UIViewController {
         firstDescription.backgroundColor = .orange
     }
 
-
+    @IBAction func nextButtonTouched(_ sender: Any) {
+        firstView.textColor = UIColor.blue
+            firstView.backgroundColor = UIColor.yellow
+            firstView.alpha = 0.5
+    }
+    
 }
 
