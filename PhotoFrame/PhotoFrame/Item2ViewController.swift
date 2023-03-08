@@ -9,6 +9,9 @@ import UIKit
 
 class Item2ViewController: UIViewController {
 
+    @IBOutlet weak var secondDesc: UILabel!
+    @IBOutlet weak var secondScene: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
