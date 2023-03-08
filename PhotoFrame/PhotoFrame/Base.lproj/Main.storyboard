@@ -53,7 +53,7 @@
                     <tabBarItem key="tabBarItem" title="First" id="o1H-aZ-8Ht"/>
                     <connections>
                         <outlet property="firstDescription" destination="V8f-sz-eWw" id="0g1-zp-SBe"/>
-                        <outlet property="firstLabel" destination="eOE-O6-kMv" id="5Yn-Y2-rqE"/>
+                        <outlet property="firstTitle" destination="eOE-O6-kMv" id="K69-aX-p5j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhT-Ug-7HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

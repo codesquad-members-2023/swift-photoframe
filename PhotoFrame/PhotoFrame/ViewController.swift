@@ -9,7 +9,7 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    @IBOutlet weak var firstLabel: UILabel!
+    @IBOutlet weak var firstTitle: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
     
     override func viewDidLoad() {
@@ -18,7 +18,7 @@ class FirstViewController: UIViewController {
         
         print(#file, #line, #function, #column)
         
-        self.firstLabel.text = "Sol의 액자"
+        self.firstTitle.text = "Sol의 액자"
     }
 
 
