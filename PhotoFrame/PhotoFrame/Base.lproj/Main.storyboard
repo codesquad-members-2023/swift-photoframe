@@ -49,11 +49,21 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqZ-cN-JA0">
+                                <rect key="frame" x="163" y="233.66666666666666" width="67.333333333333314" height="34.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT"/>
+                                <connections>
+                                    <action selector="nextButtonTouched:" destination="Tsd-uo-OLm" eventType="touchUpInside" id="wPz-iR-O2S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IPs-up-arU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vi4-6R-GPx" firstAttribute="centerY" secondItem="Hyc-AG-Qyr" secondAttribute="centerY" id="2J0-G7-cVd"/>
+                            <constraint firstItem="gqZ-cN-JA0" firstAttribute="centerX" secondItem="6Ar-xe-pkO" secondAttribute="centerX" id="HLn-ZU-Sl8"/>
+                            <constraint firstItem="6Ar-xe-pkO" firstAttribute="top" secondItem="gqZ-cN-JA0" secondAttribute="bottom" constant="118" id="dYz-7C-BmU"/>
                             <constraint firstItem="vi4-6R-GPx" firstAttribute="centerX" secondItem="Hyc-AG-Qyr" secondAttribute="centerX" id="gjc-MS-gDx"/>
                         </constraints>
                     </view>
