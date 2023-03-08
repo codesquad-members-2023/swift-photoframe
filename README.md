@@ -18,7 +18,7 @@
 1-3
 - [x] IBAction 연결하기
 - [x] IBAction 과 IBOutlet 연결 구조에 대해 이해한 내용을 정리하기(학습-3)
-- [ ] 버튼에 IBAction을 추가할 때 이벤트(Event) 종류에는 어떤 것들이 있는지 학습하기
+- [x] 버튼에 IBAction을 추가할 때 이벤트(Event) 종류에는 어떤 것들이 있는지 학습하기(학습-4)
 
 1-4
 - [ ] Sence를 Segue로 연결하기
@@ -47,18 +47,3 @@
 - [ ] UIImagePickerController처럼 이미 만들어놓은 시스템 컨트롤러들에 대해 학습하기
 - [ ] 델리게이트(Delegate)와 프로토콜(Protocol) 상관 관계에 대해 학습하기
 
-- - -
-# ❗️학습❗️
-### 1. UITabBarController 와 UITabBar에 대해 학습하기
-#### UITabBar란 하나의 뷰이고, 화면 하단에 위치해있다. radio style이라 한번에 하나만 선택이 가능하다.
-#### UITabBarController란 탭바를 사용하여 다른 view등 쉽게 전환할 수 있다.
-#### 결국 탭바를 누르면 탭바컨트롤러가 그에 상응하는 액션을 취한다.
-<img src="https://user-images.githubusercontent.com/97685264/223128583-d7f9b1ff-180e-4bec-bcdd-3e1ee2ff7121.png">
- 
- - - -
-
-### 2. UILabel 클래스 속성(Property)는 어떤게 있는지 학습하기
-#### 텍스트 컬러, 폰트(크기, 굴게..등), 나열, 베이스라인, 그림자 등이 있다.
-<img src="https://user-images.githubusercontent.com/97685264/223303146-27768ccb-3046-4070-8ec9-f643ebeb69c4.png">
-
-- - -
