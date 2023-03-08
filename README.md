@@ -69,7 +69,15 @@ upstream [울버린] 브랜치에 addGitIgnore 브랜치가 반영되었다. 아
     
 3. local [main]을 remote [main]에 push해서 시점을 맞춰주자.
 
-
+4. .gitignore 를 프로젝트 생성시 추가하지 않았다면, 계속 추적하는 상황이 발생함.
+    ```bash
+    git rm -r --cached .
+    git add .
+    git commit -m ".gitignore is now working"
+    ```
+    후 PUSH
+    
+    - GUI 환경에서는 stop tracking 옵션 이용하자.  
 
 ### IBOutlet 연결하기
 
