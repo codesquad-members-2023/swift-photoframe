@@ -85,14 +85,46 @@
                     <view key="view" contentMode="scaleToFill" id="3KZ-gm-RCR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmy-8i-k0p">
+                                <rect key="frame" x="122" y="354.66666666666669" width="149" height="74"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TgV-nE-zzC" kind="show" id="N2u-tV-V1x"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3dm-J0-1q2"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="Qmy-8i-k0p" firstAttribute="centerX" secondItem="3KZ-gm-RCR" secondAttribute="centerX" id="5uc-57-03d"/>
+                            <constraint firstItem="Qmy-8i-k0p" firstAttribute="centerY" secondItem="3KZ-gm-RCR" secondAttribute="centerY" id="njV-Tv-ANh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gQM-jl-yM3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vVP-CL-Eg3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="121" y="-337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ikv-uo-pfy">
+            <objects>
+                <viewController id="TgV-nE-zzC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ng8-G3-X4z">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DVp-cn-vkB"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gbb-3O-eSh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uy-0M-H8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1007" y="-337"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yyz-xp-ahF">
@@ -116,6 +148,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
