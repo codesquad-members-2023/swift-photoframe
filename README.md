@@ -21,7 +21,9 @@
 - [x] 버튼에 IBAction을 추가할 때 이벤트(Event) 종류에는 어떤 것들이 있는지 학습하기(학습-4)
 
 1-4
-- [ ] Sence를 Segue로 연결하기
+- [x] Sence를 Segue로 연결하기
+<img src="https://user-images.githubusercontent.com/97685264/223897730-6fbbd463-e0b8-43b2-b3b9-d38722709c06.png">
+
 - [ ] Seque에 액션에 있는 여러 항목들은 어떤 효과가 있는지 값을 바꿔보며 실행해서 학습하기
 
 1-5
