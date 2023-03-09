@@ -28,7 +28,7 @@ DUE-DATE: 2023-03-10
 **step 1-1**
 DUE-DATE: 2023-03-08
 - [ ] iOS 프로젝트 생성 w/ App template
-    - [ ] .gitignore 추가
+    - [x] .gitignore 추가
     - [ ] Storyboard interface 설정
     - [ ] 나의 의도가 들어가지 않은 주석, 파일 삭제
 - [ ] TabBarController 추가

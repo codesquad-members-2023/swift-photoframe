@@ -1,0 +1,9 @@
+# Xcode
+*.xcodeproj/*
+xcuserdata/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# MacOS
+.DS_Store
