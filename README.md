@@ -44,4 +44,7 @@
 7. ViewController Container 구현
     - [x] ViewController Container로 변경
     - [x] closeButtonTouched 동작 변경   
+    <img width="386" alt="스크린샷 2023-03-09 오후 3 27 20" src="https://user-images.githubusercontent.com/86761640/223938770-0b38f10d-5991-4a42-8956-af1c56c7bc02.png">
+    <img width="364" alt="스크린샷 2023-03-09 오후 3 27 25" src="https://user-images.githubusercontent.com/86761640/223938786-a5b39091-f07e-4fb2-bc82-1ac01e578938.png">
+
 8. 이미지 추가기능 구현
