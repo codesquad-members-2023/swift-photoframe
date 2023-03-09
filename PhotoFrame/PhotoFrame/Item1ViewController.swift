@@ -8,9 +8,14 @@
 import UIKit
 
 class Item1ViewController: UIViewController {
-
     @IBOutlet weak var firstDesc: UILabel!
     @IBOutlet weak var firstView: UILabel!
+    
+    @IBAction func firstNextBtnTouched(_ sender: Any) {
+        self.firstView.textColor = UIColor.black
+        self.firstView.backgroundColor = UIColor.cyan
+        self.firstView.alpha = 0.5
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
