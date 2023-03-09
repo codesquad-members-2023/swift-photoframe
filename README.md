@@ -12,7 +12,10 @@
 - [x] TabBarController의 이해
 - [ ] TabBar와 TabBarController의 차이
 - [ ] 과제 print 함수의 파라미터들 의미
-- [ ] 
+- [x] 스토리보드와 viewController 사이의 관계 학습
+- [x] IBOutlet 개념학습
+- [x] scene에 대한 개념 이해
+- [x] Label의 속성값의 종류, 설정 방법
 
 2.작업 체크리스트
 - [x] .gitignore 파일 생성 
