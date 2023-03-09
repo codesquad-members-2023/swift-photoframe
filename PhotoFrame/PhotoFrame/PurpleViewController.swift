@@ -51,4 +51,19 @@ class PurpleViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        
+        //스토리보드와 코드를 이어주는 코드(스토리보드 아이디 필요)
+        guard let yellowViewController = self.storyboard?.instantiateViewController(identifier: "yellowViewController") as? YellowViewController else { return }
+        
+        yellowViewController.modalPresentationStyle = .fullScreen
+        
+        yellowViewController.modalTransitionStyle = .coverVertical
+        
+        present(yellowViewController, animated: true, completion: nil)
+        
+        
+    }
+    
+    
 }
