@@ -18,7 +18,7 @@ class AppFirstView: UIViewController {
         super.viewDidLoad()
         self.photoLabel.text = "JK의 사진액자"
         self.photoLabel.textColor = .red
-        self.photoLabel.backgroundColor = .yellow
+        self.photoLabel.backgroundColor = .blue
         self.photoLabel.alpha = 0.5
         self.photoLabel.font = UIFont.systemFont(ofSize: 32)
         
@@ -34,7 +34,7 @@ class AppFirstView: UIViewController {
     @IBAction func nextButtonTouched(_ sender: UIButton) {
         self.photoLabel.textColor = UIColor.blue
         self.photoLabel.backgroundColor = .yellow
-        self.photoLabel.alpha = 0.0
+        self.photoLabel.alpha = 0.5
     }
     
 }
