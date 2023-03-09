@@ -87,8 +87,7 @@
                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nextButtonTapped:" destination="f5r-WF-2hB" eventType="touchUpInside" id="AS5-qo-c7w"/>
-                                    <action selector="nextButtonTouched:" destination="wQb-dR-oOy" eventType="touchUpInside" id="mo0-d2-Nw1"/>
+                                    <segue destination="nxx-hh-pLp" kind="show" id="kdT-oH-cj5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxR-dQ-fmh">
