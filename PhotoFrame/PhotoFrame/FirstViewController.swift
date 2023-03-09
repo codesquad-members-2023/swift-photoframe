@@ -15,5 +15,6 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         print(#file, #line, #function, #column)
         self.firstLabel.text = "JK의 사진책자"
+        self.firstDescription.text = "사진에 대한 설명 Label"
     }
 }
