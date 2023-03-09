@@ -52,6 +52,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="vck-ui-FUI"/>
                     <connections>
+                        <outlet property="firstDescription" destination="YC2-gA-Ymo" id="Vts-Aj-ga2"/>
                         <outlet property="firstLabel" destination="6yK-Yx-D7d" id="JZU-Ro-oMz"/>
                     </connections>
                 </viewController>
