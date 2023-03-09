@@ -4,48 +4,54 @@
 ## xcode 단축키 공부하기
 
 
-## Tabbar Controller
+## 1. 프로젝트 생성하기
+- [x] iOS 프로젝트에서 App 템플릿 생성하기
+- [x] 스토리보드에 Tabbar Controller 생성하기
+- [x] Tabbar Controller 학습하기
+- [x] ViewController 클래스 viewDidLoad() 함수에서 `print(#file, #line, #function, #column)` 출력하기
+![image](https://velog.velcdn.com/images/wnsqhs7804/post/62d734b4-bab2-4e25-bccc-cf0225eaab38/image.png)
 
-## Tabbar란?
-- 화면 하단에 위치하며, ViewController 사이의 화면전환을 위해 사용되는 인터페이스이다
-- 사용자가 Tabbar의 item을 선택하면 해당 항목에 연결된 ViewController의 컨텐츠가 화면에 보이게 된다
-- 주로 여러개의 화면을 구성할 때, 많이 사용한다
-- 개발자가 직접 Tabbar를 제어할 컨트롤러 클래스를 작성하여서, 사용할 수도 있지만, 대부분의 경우 프레임워크에서 제공하는 Tabbar Controller를 사용하여 제어한다
-- 위와 같이 Tabbar와 Tabbar Controller를 사용하여 인터페이스를 구성한 것을 Tabbar Interface라고 한다
-![image](https://cphinf.pstatic.net/mooc/20180124_19/1516768541400vPbH4_PNG/140_0.png)
-## Tabbar의 구조
-- Tabbar Interface는 Tabbar Controller가 생성한 Tabbar View와 Tabbar Controller가 관리하는 ViewController로 구성되어 있다
-- 각 ViewController는 Tabbar에서 하나의 Tab에 해당된다
-- 사용자가 Tabbar에서 Tab을 선택할 때, Tabbar Controller가 해당 ViewController의 View를 화면에 보여준다
-![image](https://i.imgur.com/NByMj7F.png)
-- 위와 같이 생성된 Tabbar Controller를 선택한 후, 속성 인스펙터 탭에서 `Is Initial View Controller` 옵션을 선택하게 되면, 해당 스토리보드의 맨 처음 진입 화면이 된다
-- `Is Initial View Controller` 옵션은 스토리보드의 컨트롤러 중에서 하나만 설정할 수 있다
-![image](https://cphinf.pstatic.net/mooc/20180124_290/1516768760055wn21d_PNG/140_3.png)
----
-## IBOutlet
+## 2. IBOutlet 연결하기
+- [x] IBOutlet 학습하기
+- [x] UILabel 학습하기
+- [X] First Scene에 만들어져 있는 레이블을 IBOutlet으로 연결하기
+- [x] `photoLabel` Label의 속성 변경한다
+- [x] `firstDescription` Label의 속성 변경한다
+![image](https://velog.velcdn.com/images/wnsqhs7804/post/5050ba22-bd54-46a6-a404-648f4840cece/image.png)
 
-- IBOutlet의 역할과 기능에 대해서 학습하기
-- Label의 속성 변경에 대해서 학습하기
+## 3. IBAction 연결하기
+- [x] IBAction 학습하기
+- [x] IBAction과 IBOutlet의 연결 구조 학습하기
+- [x] Button event 종류 찾아보기
+- [x] 추가 학습거리 학습하기
 
-## UILabel
+![image](https://velog.velcdn.com/images/wnsqhs7804/post/1db8748c-1a56-4d17-ba47-5d35400e429c/image.png)
 
-- UILabel의 역할과 기능에 대해서 학습하기
-- UILabel 내부 프로퍼티에 대해서 학습하기
+## 4. Scene을 Segue로 연결하기
+- [x] 새로운 Scene 추가하기
+- [x] Scene 에서 Segue 연결하기
+- [x] Segue와 Scene가 무엇인지 학습하기
+- [x] Segue 액션 종류 학습하기
+<img src = "https://user-images.githubusercontent.com/115064144/224033382-be50d593-e6ab-451b-b2f4-2e07afce2b1a.gif">
 
-## IBAction
+## 5. ViewController 연결하기
+- [ ] 직접 프로젝트에 새로운 ViewController 추가하기
+- [ ] 뷰 컨트롤러 강의 자료에 있는 화면 관련 콜백 함수들에 모두 print(#file, #line, #function, #column) 코드를 추가하기
+- [ ] ViewController 학습하기
+- [ ] ViewController Life Cycle 학습하기
 
-- IBAction의 역할과 기능에 대해서 학습하기
+## 6. Container ViewController 활용하기
+- [ ] ViewController Container 학습하기
+- [ ] ViewController Container는 또 어떤 클래스가 있는지 찾아보고 학습한다
 
-## IBOutlet과 IBAction의 차이점
+## 다른 화면 연결하기
+- [ ] 화면 하단에 [닫기] Button 추가하기
+- [ ] UIImageView 와 UIImage 클래스는 각각 어떤 역할을 담당하는지 학습하기
+- [ ] Bundle Resource에 대하여 학습하기
+- [ ] 이미지 뷰의 속성은 어떤 것들이 있는지 애플 개발자 문서를 참고하기
 
-- 위에서 공부한 내용을 바탕으로 둘의 차이점을 공부하고, 어떠한 이벤트가 존재하는지 학습하기
-
-## Scene & Segue
-
-- Scene 역할과 기능 학습하기
-- Segue 역할과 기능 학습하기
-- Segue의 여러가지 액션에 대해서 학습하기
-
-## View LifeCycle
-
-- View의 LifeCycle 학습하기
+## 사진 앨범 선택하기
+- [ ] ImagePickerController 학습하기
+- [ ] 이미지 테두리 액자 화면을 추가하기
+- [ ] 델리게이트(Delegate)와 프로토콜(Protocol) 상관 관계에 대해 학습하기
+- [ ] 시스템 컨트롤러 개발자 문서 통해서 학습하기
