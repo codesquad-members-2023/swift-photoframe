@@ -36,6 +36,9 @@
     <img width="384" alt="1" src="https://user-images.githubusercontent.com/86761640/223926682-9623cb19-fa5f-403f-b761-af415a566a19.png">
     <img width="374" alt="2" src="https://user-images.githubusercontent.com/86761640/223926689-41326983-a1f2-455e-9a3a-ede04917fffe.png">
     <img width="394" alt="3" src="https://user-images.githubusercontent.com/86761640/223926696-37c06533-535f-4234-b968-ead5467f7096.png">
-
 6. 닫기 버튼 추가, 새로운 scene 닫힘 구현
+    - [x] YellowViewController custom class 생성
+    - [x] BlueViewController custom class 생성
+    - [x] print를 통해서 라이프사이클 확인
+    <img width="812" alt="스크린샷 2023-03-09 오후 2 49 10" src="https://user-images.githubusercontent.com/86761640/223932274-8e3602d5-eef0-457b-82e9-b46a9337c57d.png">
 7. 이미지 추가기능 구현
