@@ -59,8 +59,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isJ-2n-5Zv" userLabel="Second Label">
-                                <rect key="frame" x="42" y="228" width="308" height="118"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1l7-0E-oLT">
+                                <rect key="frame" x="57" y="274" width="278" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
@@ -73,7 +73,7 @@
                     <tabBarItem key="tabBarItem" title="item 2" id="wX9-w0-FwI"/>
                     <connections>
                         <outlet property="secondDesc" destination="6QX-Nq-7bF" id="8PN-dZ-IEs"/>
-                        <outlet property="secondView" destination="isJ-2n-5Zv" id="O7x-cJ-viM"/>
+                        <outlet property="secondView" destination="1l7-0E-oLT" id="bd8-QA-rkQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Mc-p2-kYU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
