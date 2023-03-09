@@ -60,7 +60,6 @@ control + 드래그로 Outlet변수 선언+연결을 할 수 있다.
 
     <img width="80" alt="스크린샷 2023-03-09 오후 2 23 46" src="https://user-images.githubusercontent.com/88966578/223928313-1005edbb-bb35-4f50-9fd2-0c3badaacb7d.png">
 
-> 
     didEndOnExit :      키보드의 Return/Enter키를 눌렀을 때
     editingChanged :	UITextField에서 값이 바뀔 때마다 호출되는 이벤트
     editingDidBegin :	UITextField에서 편집이 시작될 때 호출되는 이벤트
@@ -83,9 +82,27 @@ control + 드래그로 Outlet변수 선언+연결을 할 수 있다.
     
 - [NEXT] Button 기능 구현
     - 컨트롤 + 드래그 로 Action에 연결하고 버튼객체에 어떤 Event가 일어났을 때 함수를 호출 할 것인지 설정한다. 
-
-### Scene 을 Segue로 연결하기
-
+    
+- Outlet 변수와 Action 함수 
+    
+    - Outlet변수 
+        - @IBOutlet :
+        IB는 Interface Builder의 약자로, @IB로 시작되는 변수나 함수는 인터페이스 빌더와 관련된 변수나 함수라는 것을 의미한다.
+        @IBOutlet은 객체를 소스 코드에서 참조하기 위해 사용하는 키워드이며, 객체의 속성을 제어할 때 사용. 
+    
+        - storage - Strong / weak :
+        아웃렛 변수를 추가할때 Strong과 Weak 둘 중에서 선택하게 된다. 이 두 가지는 메모리 회수 정책을 나타내는 키워드이다.
+        Strong으로 선언된 변수는 다른 곳에서 참조하고 있을 경우 메모리에서 제거되지 않지만, Weak로 선언된 변수는 다른 곳에서 참조하고 있더라도 시스템이 임의적으로 메모리에서 제거 할 수 있다.
+    
+    - Action 함수
+    
+        - @IBAction :  
+        @IBAction으로 정의된 함수를 액션 함수라 부른다. 버튼을 누르거나, 피커가 선택되는 등, 특정 객체에서 원하는 이벤트가 발생했을 때 정해진 작업을 실행하기 위해 사용한다.
+    
+        - (_ sender: Any) :
+        액션 함수가 실행되도록 이벤트를 보내는 객체
+        
+### Scene 을 Segue로 연결하기    
 - Scene ?
     - 
 - Segue ?
