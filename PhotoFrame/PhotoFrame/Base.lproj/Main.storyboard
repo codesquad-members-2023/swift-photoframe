@@ -27,7 +27,7 @@
         <!--Item 1-->
         <scene sceneID="vWc-81-bdI">
             <objects>
-                <viewController id="wQb-dR-oOy" customClass="Item1VC" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wQb-dR-oOy" customClass="PhotoFrameViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdk-Uq-tac">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +53,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
-                                    <action selector="nextButtonTouched:" destination="wQb-dR-oOy" eventType="touchUpInside" id="Ye1-wp-tzm"/>
+                                    <action selector="nextButtonTouched:" destination="wQb-dR-oOy" eventType="touchUpInside" id="Yzl-Io-Gw9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,8 +62,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="qqP-RR-5EB"/>
                     <connections>
-                        <outlet property="firstDescription" destination="Oyb-wB-h13" id="LbZ-GI-VfK"/>
-                        <outlet property="firstLabel" destination="Gva-G3-WLK" id="NHG-CN-8wS"/>
+                        <outlet property="firstPhotoFrameDescriptionLabel" destination="Oyb-wB-h13" id="jgf-8z-7Yx"/>
+                        <outlet property="firstPhotoFrameLabel" destination="Gva-G3-WLK" id="Xfi-qS-sHN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="43H-55-bQG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
