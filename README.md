@@ -1,6 +1,9 @@
 # ❗️swift-photoframe❗️
 1주차 사진액자 프로젝트
 
+ - - -
+학습파일 바로가기 >>>> https://github.com/boriiiborii/baekjun/files/10928440/STUDY.md
+- - -
 # ❗️체크리스트❗️
 1-1
 - [x] 탭바컨트롤러를 만들어 두 개 Scene 중에 첫 번째 Scene에 Custom Class를 ViewController로 지정하기

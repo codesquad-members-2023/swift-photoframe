@@ -10,10 +10,7 @@ import UIKit
 class PhotoFrameViewController: UIViewController {
 
     @IBOutlet weak var firstPhotoFrameLabel: UILabel!
-    
-    
     @IBOutlet weak var firstPhotoFrameDescriptionLabel: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +31,8 @@ class PhotoFrameViewController: UIViewController {
    
     @IBAction func nextButtonTouched(_ sender: Any) {
         self.firstPhotoFrameLabel.textColor = UIColor.blue
-           self.firstPhotoFrameLabel.backgroundColor = UIColor.yellow
-           self.firstPhotoFrameLabel.alpha = 0.5
+        self.firstPhotoFrameLabel.backgroundColor = UIColor.yellow
+        self.firstPhotoFrameLabel.alpha = 0.5
         
     }
     
