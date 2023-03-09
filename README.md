@@ -72,15 +72,17 @@ control + 드래그로 Outlet변수 선언+연결을 할 수 있다.
     touchDragInside :	컨트롤 범위 내에서 터치한 영역을 드래그 할 때 발생하는 이벤트
     touchDragOutside :	터치 영역이 컨트롤의 바깥쪽에서 드래그 할 때 발생하는 이벤트
     touchDragEnter :	터치 영역이 컨트롤의 일정 영역 바깥쪽으로 나갔다가 다시 들어왔을 때 발생하는 이벤트
-    touchDragExit :	터치 영역이 컨트롤의 일정 영역 바깥쪽으로 나갔을 때 발생하는 이벤트
-    touchUpInside :	컨트롤 영역 안쪽에서 터치 후 뗐을때 발생하는 이벤트
+    touchDragExit :	    터치 영역이 컨트롤의 일정 영역 바깥쪽으로 나갔을 때 발생하는 이벤트
+    touchUpInside :	    컨트롤 영역 안쪽에서 터치 후 뗐을때 발생하는 이벤트
     touchUpOutside :	컨트롤 영역 안쪽에서 터치 후 컨트롤 밖에서 뗐을때 이벤트
-    valueChanged :	터치를 드래그 및 다른 방법으로 조작하여 값이 변경되었을때 발생하는 이벤트
+    valueChanged :	    터치를 드래그 및 다른 방법으로 조작하여 값이 변경되었을때 발생하는 이벤트
 
 - Class 안에 구현된 메소드 역할 파악
-    - 
+    - viewDidLoad () : view가 로드 되자마자 실행할 코드를 작성
+    - firstNextBtnTouched () : item1 Scene의 버튼이 터치되었을 때 실행할 코드를 작성 
+    
 - [NEXT] Button 기능 구현
-    - 
+    - 컨트롤 + 드래그 로 Action에 연결하고 버튼객체에 어떤 Event가 일어났을 때 함수를 호출 할 것인지 설정한다. 
 
 ### Scene 을 Segue로 연결하기
 
