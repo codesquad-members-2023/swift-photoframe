@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="-1404" y="153"/>
         </scene>
-        <!--View Controller-->
+        <!--Yellow View Controller-->
         <scene sceneID="TcT-jZ-sZf">
             <objects>
-                <viewController id="vGF-NY-z4g" sceneMemberID="viewController">
+                <viewController id="vGF-NY-z4g" customClass="YellowViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zmm-e6-JKY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,6 +105,15 @@
                                     <segue destination="lrj-lz-Qa7" kind="show" id="uj3-p6-79c"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myj-Q9-BT6">
+                                <rect key="frame" x="171" y="513" width="54" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기"/>
+                                <connections>
+                                    <action selector="closeButtonTouched:" destination="vGF-NY-z4g" eventType="touchUpInside" id="OSr-UA-FJV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ghm-Op-kbf"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -115,13 +124,42 @@
             </objects>
             <point key="canvasLocation" x="554.96183206106866" y="-223.23943661971833"/>
         </scene>
-        <!--View Controller-->
+        <!--Blue View Controller-->
         <scene sceneID="rbU-hv-Vbm">
             <objects>
-                <viewController id="lrj-lz-Qa7" sceneMemberID="viewController">
+                <viewController id="lrj-lz-Qa7" customClass="BlueViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFj-l8-1bQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nX-LU-5fs">
+                                <rect key="frame" x="159" y="509" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6U5-5U-3ty">
+                                <rect key="frame" x="180" y="499" width="54" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기"/>
+                                <connections>
+                                    <action selector="closeButtonTouched:" destination="vGF-NY-z4g" eventType="touchUpInside" id="QMl-KG-qAA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vY-MG-NOX">
+                                <rect key="frame" x="169" y="513" width="54" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기">
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="closeButtonTouched:" destination="vGF-NY-z4g" eventType="touchUpInside" id="ZTa-kt-stT"/>
+                                    <action selector="closeButtonTouched:" destination="lrj-lz-Qa7" eventType="touchUpInside" id="cGG-vc-iC6"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aiM-LP-Wzv"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
@@ -129,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xtK-Kk-fW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1321" y="-223"/>
+            <point key="canvasLocation" x="1319.8473282442746" y="-223.23943661971833"/>
         </scene>
     </scenes>
     <resources>

@@ -16,6 +16,8 @@
 		FF440EE029B5C99C00F769A3 /* PhotoFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF440EDF29B5C99C00F769A3 /* PhotoFrameTests.swift */; };
 		FF440EEA29B5C99C00F769A3 /* PhotoFrameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF440EE929B5C99C00F769A3 /* PhotoFrameUITests.swift */; };
 		FF440EEC29B5C99C00F769A3 /* PhotoFrameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF440EEB29B5C99C00F769A3 /* PhotoFrameUITestsLaunchTests.swift */; };
+		FF5889E129B9A68D00043B2B /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5889E029B9A68D00043B2B /* YellowViewController.swift */; };
+		FF5889E329B9A7CE00043B2B /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5889E229B9A7CE00043B2B /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FF440EE529B5C99C00F769A3 /* PhotoFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF440EE929B5C99C00F769A3 /* PhotoFrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFrameUITests.swift; sourceTree = "<group>"; };
 		FF440EEB29B5C99C00F769A3 /* PhotoFrameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFrameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF5889E029B9A68D00043B2B /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		FF5889E229B9A7CE00043B2B /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FF440ECA29B5C99B00F769A3 /* SceneDelegate.swift */,
 				FF440ECC29B5C99B00F769A3 /* ViewController.swift */,
 				FF440ECE29B5C99B00F769A3 /* Main.storyboard */,
+				FF5889E229B9A7CE00043B2B /* BlueViewController.swift */,
+				FF5889E029B9A68D00043B2B /* YellowViewController.swift */,
 				FF440ED129B5C99C00F769A3 /* Assets.xcassets */,
 				FF440ED329B5C99C00F769A3 /* LaunchScreen.storyboard */,
 				FF440ED629B5C99C00F769A3 /* Info.plist */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5889E129B9A68D00043B2B /* YellowViewController.swift in Sources */,
 				FF440ECD29B5C99B00F769A3 /* ViewController.swift in Sources */,
 				FF440EC929B5C99B00F769A3 /* AppDelegate.swift in Sources */,
+				FF5889E329B9A7CE00043B2B /* BlueViewController.swift in Sources */,
 				FF440ECB29B5C99B00F769A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
