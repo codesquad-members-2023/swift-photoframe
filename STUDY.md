@@ -95,3 +95,19 @@ fullScreen/CrossDissolve/실행화면
 
 (5) Custom : 세그웨이를 커스텀할때 사용한다.
 - - -
+### 6. 화면 전환이 이루어지는 사이에 뷰컨트롤러 라이프사이클이 어떻게 변화하는지 학습하기
+
+<img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2613D13C58C64DE32C">
+
+loadView : 뷰를 로드할때 실행됨
+
+viewDidLoad : 뷰가 로드 되면 실행됨
+
+ViewWillAppear : 뷰가 나타나기 전에 실행됨
+
+viewDidAppear : 뷰가 나타난 후에 실행됨
+
+viewWIllDisappear : 뷰가 사라지기 전에 실행됨
+
+viewDidDisappear : 뷰가 사라진 후 실행됨
+- - -

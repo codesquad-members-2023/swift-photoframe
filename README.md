@@ -36,6 +36,11 @@
 - [x] 뷰 컨트롤러 강의 자료에 있는 화면 관련 콜백 함수들에 모두 print(#file, #line, #function, #column) 코드를 추가하기
 <img src = "https://user-images.githubusercontent.com/97685264/223949569-78a7e832-24d1-4eca-97f5-1f73a62aff38.gif">
 
+- [x] 화면 전환이 이루어지는 사이에 뷰컨트롤러 라이프사이클이 어떻게 변화하는지 학습(학습-6)
+- [ ] 뷰컨트롤러와 관련된 새로운 용어들에 대해 학습
+- [ ] YellowViewController에서 Segue를 제거하고 다음 화면을 보여줄 때 코드로 보여주는 방법을 찾아보고 적용하기
+
+
 1-6
 - [ ] Container ViewController 활용하기
 - [ ] 화면 전환이 이루어지는 사이에 뷰컨트롤러 라이프사이클이 어떻게 변화하는지 학습하기
