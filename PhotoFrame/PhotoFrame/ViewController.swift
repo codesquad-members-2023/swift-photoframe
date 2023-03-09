@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var photoLabel: UILabel!
+    @IBOutlet weak var firstDescription: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.photoLabel.text = "하림의 사진액자"
