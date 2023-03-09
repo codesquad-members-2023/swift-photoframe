@@ -20,4 +20,9 @@ class FirstViewController: UIViewController {
         self.photoLabel.font = UIFont.systemFont(ofSize: 15)
         self.photoDescription.text = "사진에 대한 설명 Label"
     }
+    @IBAction func nextButtonTouched(_ sender: Any) {
+        self.photoLabel.textColor = UIColor.blue
+        self.photoLabel.backgroundColor = UIColor.yellow
+        self.photoLabel.alpha = 0.5
+    }
 }
