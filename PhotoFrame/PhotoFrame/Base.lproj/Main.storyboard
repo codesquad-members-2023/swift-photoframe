@@ -69,8 +69,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="XfT-tf-NTx"/>
                     <connections>
-                        <outlet property="firstDescriptionLabel" destination="DqH-AN-Iog" id="0De-jb-J4G"/>
-                        <outlet property="firstTitleLabel" destination="6Ar-xe-pkO" id="38C-A9-Gmn"/>
+                        <outlet property="descriptionLabel" destination="DqH-AN-Iog" id="0De-jb-J4G"/>
+                        <outlet property="titleLabel" destination="6Ar-xe-pkO" id="38C-A9-Gmn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKn-vX-TxT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
