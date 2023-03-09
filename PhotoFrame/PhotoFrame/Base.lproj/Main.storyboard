@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="-431.29770992366412" y="-386.61971830985919"/>
         </scene>
-        <!--View Controller-->
+        <!--Purple View Controller-->
         <scene sceneID="htQ-VE-XiW">
             <objects>
-                <viewController id="f5r-WF-2hB" sceneMemberID="viewController">
+                <viewController id="f5r-WF-2hB" customClass="PurpleViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AFB-4Q-c0g">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,6 +91,17 @@
                                     <segue destination="nxx-hh-pLp" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="QZg-cz-XV8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxR-dQ-fmh">
+                                <rect key="frame" x="169" y="279" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="f5r-WF-2hB" eventType="touchUpInside" id="Oge-gb-ZTl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="APY-In-NLq"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
@@ -99,15 +110,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YPx-aZ-g0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="553" y="-387"/>
+            <point key="canvasLocation" x="551.90839694656484" y="-387.32394366197184"/>
         </scene>
-        <!--View Controller-->
+        <!--Yellow View Controller-->
         <scene sceneID="bj9-Zw-eVI">
             <objects>
-                <viewController id="nxx-hh-pLp" sceneMemberID="viewController">
+                <viewController id="nxx-hh-pLp" customClass="YellowViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wYU-FC-EGB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRX-Pa-Fh0">
+                                <rect key="frame" x="170" y="160" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기"/>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="nxx-hh-pLp" eventType="touchUpInside" id="vhV-Ve-LkU"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xAJ-qb-xIK"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
