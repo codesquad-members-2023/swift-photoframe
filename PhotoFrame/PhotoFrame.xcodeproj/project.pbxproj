@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB59877729B9B9F1004D2587 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB59877629B9B9F1004D2587 /* PurpleViewController.swift */; };
+		DBB7CD3C29B9B4EB00B755A7 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7CD3B29B9B4EB00B755A7 /* YellowViewController.swift */; };
 		DBF7FDC229B61F5D0072089C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7FDC129B61F5D0072089C /* AppDelegate.swift */; };
 		DBF7FDC429B61F5D0072089C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7FDC329B61F5D0072089C /* SceneDelegate.swift */; };
 		DBF7FDC629B61F5D0072089C /* PhotoFrameViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7FDC529B61F5D0072089C /* PhotoFrameViewControllerViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB59877629B9B9F1004D2587 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		DBB7CD3B29B9B4EB00B755A7 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		DBF7FDBE29B61F5D0072089C /* PhotoFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF7FDC129B61F5D0072089C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF7FDC329B61F5D0072089C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		DBF7FDC029B61F5D0072089C /* PhotoFrame */ = {
 			isa = PBXGroup;
 			children = (
+				DBB7CD3B29B9B4EB00B755A7 /* YellowViewController.swift */,
+				DB59877629B9B9F1004D2587 /* PurpleViewController.swift */,
 				DBF7FDC129B61F5D0072089C /* AppDelegate.swift */,
 				DBF7FDC329B61F5D0072089C /* SceneDelegate.swift */,
 				DBF7FDC529B61F5D0072089C /* PhotoFrameViewControllerViewController.swift */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB7CD3C29B9B4EB00B755A7 /* YellowViewController.swift in Sources */,
 				DBF7FDC629B61F5D0072089C /* PhotoFrameViewControllerViewController.swift in Sources */,
+				DB59877729B9B9F1004D2587 /* PurpleViewController.swift in Sources */,
 				DBF7FDC229B61F5D0072089C /* AppDelegate.swift in Sources */,
 				DBF7FDC429B61F5D0072089C /* SceneDelegate.swift in Sources */,
 			);
