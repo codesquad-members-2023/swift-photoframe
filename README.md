@@ -24,14 +24,15 @@
 
 - [x]  버튼 추가하고 액션으로 연결
 - [x]  메서드 구현 추가
-- [ ]  학습 내용 정리
-- [ ]  피드백 반영
+- [x]  학습 내용 정리
+- [x]  피드백 반영
+    - [x]  label을 비롯한 네이밍.. 고려해보자
 
 ### 4. Scene을 Segue로 연결하기
 
-- [ ]  새 yellow scene 추가 segue 연결, 속성 변경
-- [ ]  scene 속성 변경
-- [ ]  blue scene 추가 - 반복
+- [x]  새 yellow scene 추가 segue 연결, 속성 변경
+- [x]  scene 속성 변경
+- [x]  blue scene 추가 - 반복
 
 ### 5. ViewController 연결하기
 
@@ -81,14 +82,16 @@
 - [x]  이벤트 종류 학습
 - [x]  버튼에 액션 여러 개 될까? vs. 여러 버튼 하나의 액션 될까?
 
+### 목요일
+
+- [x]  segue
+    - [x]  segue의 실체
+    - [x]  segue action 실험실
+
 ### POOL
 
 > 이 다음은 우선 미션 내용을 파악하면서 학습할 관련 키워드를 나열해둔 겁니다.
 > 
-
-- [ ]  segue
-    - [ ]  segue의 실체
-    - [ ]  segue 실험실
 - [ ]  view controller
     - [ ]  ViewController 강의 자료 시청
     - [ ]  ViewController, View, Scene, WindowScene, Window 정의와 역할, 차이점 확실히 공부하기
@@ -122,22 +125,10 @@
 
 # 업무 노트
 
-## 1. 프로젝트 생성하기
-
-TabBarController 메소드 구현 추가 후에 실행한 모습
-
-![스크린샷 2023-03-06 12.20.08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02cd4ea9-d203-4cf3-a5c4-9998ed24b1d7/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-03-06_12.20.08.png)
-
-## 3. IBAction 연결하기
-
-버튼 누르기 전후
-
-![스크린샷 2023-03-08 23.45.31.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/05504645-d5dd-4381-ac45-429e20e160b3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-03-08_23.45.31.png)
-
-![스크린샷 2023-03-08 23.45.40.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3fc8b98-6040-4877-9035-8659d158c9e0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-03-08_23.45.40.png)
-
----
+[구현 확인 자료](https://www.notion.so/bf38dafa5359441e901ee44b1e0c9b84)
 
 # 학습 노트
 
 [step 3 학습 노트](https://www.notion.so/step-3-4437d2132bd24f31b17f3179810412d8)
+
+[step 4 학습 노트](https://www.notion.so/step-4-4d53912519a54163ba96a45c30c98686)
