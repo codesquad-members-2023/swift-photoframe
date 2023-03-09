@@ -42,6 +42,6 @@
     - [x] print를 통해서 라이프사이클 확인
     <img width="812" alt="스크린샷 2023-03-09 오후 2 49 10" src="https://user-images.githubusercontent.com/86761640/223932274-8e3602d5-eef0-457b-82e9-b46a9337c57d.png">
 7. ViewController Container 구현
-    - [ ] ViewController Container로 변경
-    - [ ] closeButtonTouched 동작 변경   
+    - [x] ViewController Container로 변경
+    - [x] closeButtonTouched 동작 변경   
 8. 이미지 추가기능 구현
