@@ -32,14 +32,14 @@
 
 ### Check List
 
-- [ ] Main.storyboard 파일의 First Scene에 ‘First View’ Label 추가
-- [ ] First View Label을 선택하고 Assistant Editor 모드로 변경
-- [ ] First View Label을 Control + 드래그 해서 ViewController 코드에 photoLable 이름으로 IBOutlet연결
-- [ ] ViewController 클래스 viewDidLoad() 메서드에서 photoLable 아웃렛 변수에 값을 변경 후 다시 실행
-- [ ] self.firstLabel.text = “하림의 사진액자” 로 firstLabel 속성을 변경 하고 글자색, 배경색, 투명도, 글자 크기 등도 변경한다
-- [ ] fistLabel 아래의 Label 을 firstDescription 아웃렛으로 연결
-- [ ] firstLabel처럼 동일하게 값을 변경 후 확인
-- [ ] 실행 화면 캡쳐 후 readme.md파일에 추가
+- [x] Main.storyboard 파일의 First Scene에 ‘First View’ Label 추가
+- [x] First View Label을 선택하고 Assistant Editor 모드로 변경
+- [x] First View Label을 Control + 드래그 해서 ViewController 코드에 photoLable 이름으로 IBOutlet연결
+- [x] ViewController 클래스 viewDidLoad() 메서드에서 photoLable 아웃렛 변수에 값을 변경 후 다시 실행
+- [x] self.firstLabel.text = “하림의 사진액자” 로 firstLabel 속성을 변경 하고 글자색, 배경색, 투명도, 글자 크기 등도 변경한다
+- [x] fistLabel 아래의 Label 을 firstDescription 아웃렛으로 연결
+- [x] firstLabel처럼 동일하게 값을 변경 후 확인
+- [x] 실행 화면 캡쳐 후 readme.md파일에 추가
 
 ### 학습 List
 
@@ -47,3 +47,7 @@
 - [ ] UILabel
 - [ ] UILabel 클래스의 속
 - [ ] storyboard
+
+### 실행 화면 캡쳐
+
+<img height="844" src="https://velog.velcdn.com/images/harimrim/post/47e5e6e2-7a9c-4bce-bc5f-42b68d604143/image.png">
