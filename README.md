@@ -29,11 +29,8 @@ DUE-DATE: 2023-03-10
 DUE-DATE: 2023-03-09
 - [x] iOS 프로젝트 생성 w/ App template
     - [x] .gitignore 추가
-    commit: 9056dda34cd89e087d267723435dcd3b9fdedd08
     - [x] Storyboard interface 설정
-    commit: 9f84b1e10cc252dd756013510ad55facda1b2b4e
     - [x] 나의 의도가 들어가지 않은 주석, 파일 삭제
-    commit: cff5c501e18073c65524c36495c384a718062d41, 69194f9e0718a8b625f11a9931ce589975e70974
 - [ ] TabBarController 추가
     - [ ] InitialController 지정
     - [ ] Scene 추가
