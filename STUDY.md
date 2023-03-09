@@ -111,3 +111,36 @@ viewWIllDisappear : 뷰가 사라지기 전에 실행됨
 
 viewDidDisappear : 뷰가 사라진 후 실행됨
 - - -
+### 7. 뷰 컨트롤러와 관련된 단어 정리
+* ViewController : 
+    가장 기본적인 컨트롤러.
+    UIKit 프레임워크 클래스는 UIViewController
+
+* Navigation Controller : 
+    상단에 네비게이션 바가 추가됨. 
+    컨트롤러끼리 화면이동을 처리. 
+    현재의 페이지 위치에 대한 네비게이션 역할. 
+    뷰를 포함하고있지 않음. >> 다른컨트롤러와 결합하여 화면을 구성. 
+    UIKit 프레임워크의 클래스는 UINavigationController
+    
+* TableView Controller : 
+    리스트 형식의 테이블뷰를 포함. 
+    화면을 나열하는 목적으로 쓰임. 
+    UIKit 프레임워크는 UITableViewController
+    
+* TabBar Controller : 
+    화면을 나타내는 여러개의 탭이있음. 그 탭을 누르면 화면이 전환. 
+    복합적으로 화면을 구성(탭바컨트롤러 + 어떠한 뷰컨트롤러 = 한 화면). 
+    UIKit 프레임워크의 클래스는 UITabBar Controller
+
+* Split ViewController : 
+    아이패드 설정을 들어가면 보이는 스플릿 뷰 컨트롤러. 
+    화면을 분활하여 작업을 할 수 있도록 한다.
+
+* CollectionView Controller : 
+    컬렉션 뷰는 셀, 보충뷰, 데코레이션뷰, 레이아웃객체로 구성된다. 
+    UIKit 프레임워크는 UICollectionView. 
+    유연하고 변경 가능한 레이아웃을 사용하여 데이터 아이템의 정렬된 세트를 표시
+- - -
+
+
