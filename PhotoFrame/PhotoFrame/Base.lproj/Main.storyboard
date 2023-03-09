@@ -88,7 +88,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextButtonTouched:" destination="wQb-dR-oOy" eventType="touchUpInside" id="mo0-d2-Nw1"/>
-                                    <segue destination="nxx-hh-pLp" kind="show" id="QZg-cz-XV8"/>
+                                    <segue destination="nxx-hh-pLp" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="QZg-cz-XV8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -106,7 +106,7 @@
             <objects>
                 <viewController id="nxx-hh-pLp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wYU-FC-EGB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="xAJ-qb-xIK"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>

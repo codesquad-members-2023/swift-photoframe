@@ -61,3 +61,41 @@ Touch Up Outside : 통제가 안되는 영역에서 터치 업할때
 
 Value Changed : 값이 변경될 때
 - - -
+### 5. Segue에 액션항목 실행하고 학습하기
+<액션항목 종류>
+<img src = "https://user-images.githubusercontent.com/97685264/223920356-541da9cb-fa75-4fa0-bf04-be14454d087c.png">
+
+
+(1) show : 가장 기본적인 방법. 이 세그웨이를 통해 다음 화면으로 넘어간다면 stack 맨 위에 쌓이는 방식이다.
+<img src = "https://user-images.githubusercontent.com/97685264/223919439-16989ab7-fba5-46ff-92a8-2f14e0f2e3e9.gif">
+
+
+
+(2) Show Detail : 아이패드 스플릿뷰와 관련된 방법.
+
+
+(3) presentModally : 뷰 컨트롤러를 모달로 보여준다.
+
+*모달: 화면을 다른화면 위로 띄워 표현하는 방식
+
+속성
+<img src = "https://user-images.githubusercontent.com/97685264/223919572-25ddc355-99d2-4360-83d7-eec141d1705e.png">
+
+presentation 속성과 transition 속성이 있다.
+
+presentation 선택항목
+<img src = "https://user-images.githubusercontent.com/97685264/223919603-2abb2575-fa23-416f-bd40-85014f0295dd.png">
+
+trasition 선택항목
+<img src = "https://user-images.githubusercontent.com/97685264/223919662-cbf5df32-d6f1-473c-9ad7-244ac4be23dc.png">
+
+
+fullScreen/CrossDissolve/실행화면
+
+<img src = "https://user-images.githubusercontent.com/97685264/223919498-be32dbdb-434a-4755-9b3e-ff27d24a493a.gif">
+
+
+(4) Present As Popover : 아이패드 팝업창을 띄울때 사용한다.
+
+(5) Custom : 세그웨이를 커스텀할때 사용한다.
+- - -

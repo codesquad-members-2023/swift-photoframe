@@ -36,6 +36,7 @@ class PhotoFrameViewController: UIViewController {
         self.firstPhotoFrameLabel.textColor = UIColor.blue
            self.firstPhotoFrameLabel.backgroundColor = UIColor.yellow
            self.firstPhotoFrameLabel.alpha = 0.5
+        
     }
     
     
