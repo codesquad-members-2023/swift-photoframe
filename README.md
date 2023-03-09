@@ -35,4 +35,8 @@
 - [x] viewController 이름 변경
 - [x] Label 속성 변경 코드 작성
 # 과제 실행 결과
+## step1
 <img width="897" alt="Screenshot 2023-03-08 at 2 13 28 AM" src="https://user-images.githubusercontent.com/57861751/223767293-c4e6f7c3-6fde-434b-bfd8-ef9317625dd6.png">
+
+## step2
+<img width="460" alt="Screenshot 2023-03-09 at 6 36 50 PM" src="https://user-images.githubusercontent.com/57861751/223981310-5332fae7-1e15-408a-a112-6219fdcdcfc6.png">
