@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="-211" y="478"/>
         </scene>
-        <!--First-->
+        <!--First View Controller-->
         <scene sceneID="euW-ws-Itz">
             <objects>
                 <viewController id="eUw-Sk-wmu" customClass="FirstViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,7 +60,7 @@
                         <viewLayoutGuide key="safeArea" id="rih-ci-oFF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" id="o1H-aZ-8Ht"/>
+                    <navigationItem key="navigationItem" id="shw-Yt-pzI"/>
                     <connections>
                         <outlet property="firstDescription" destination="V8f-sz-eWw" id="0g1-zp-SBe"/>
                         <outlet property="firstTitle" destination="eOE-O6-kMv" id="K69-aX-p5j"/>
@@ -68,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhT-Ug-7HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-211.4503816793893" y="-223.23943661971833"/>
+            <point key="canvasLocation" x="715.26717557251902" y="-223.23943661971833"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7O7-41-cyF">
@@ -80,7 +80,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="eUw-Sk-wmu" kind="relationship" relationship="viewControllers" id="YdS-eR-v4o"/>
+                        <segue destination="mnA-y8-80w" kind="relationship" relationship="viewControllers" id="YdS-eR-v4o"/>
                         <segue destination="1uL-mm-e9o" kind="relationship" relationship="viewControllers" id="fH7-bj-Jdd"/>
                     </connections>
                 </tabBarController>
@@ -93,18 +93,9 @@
             <objects>
                 <viewController id="vGF-NY-z4g" customClass="YellowViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zmm-e6-JKY">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMo-2u-KMQ">
-                                <rect key="frame" x="170" y="59" width="54" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
-                                <connections>
-                                    <segue destination="lrj-lz-Qa7" kind="show" id="uj3-p6-79c"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myj-Q9-BT6">
                                 <rect key="frame" x="171" y="513" width="54" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -112,6 +103,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="닫기"/>
                                 <connections>
                                     <action selector="closeButtonTouched:" destination="vGF-NY-z4g" eventType="touchUpInside" id="OSr-UA-FJV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMo-2u-KMQ">
+                                <rect key="frame" x="169" y="304" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                                <connections>
+                                    <segue destination="lrj-lz-Qa7" kind="show" id="uj3-p6-79c"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,14 +122,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hvx-6s-krc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="554.96183206106866" y="-223.23943661971833"/>
+            <point key="canvasLocation" x="1481.679389312977" y="-223.23943661971833"/>
         </scene>
         <!--Blue View Controller-->
         <scene sceneID="rbU-hv-Vbm">
             <objects>
                 <viewController id="lrj-lz-Qa7" customClass="BlueViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFj-l8-1bQ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nX-LU-5fs">
@@ -167,7 +167,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xtK-Kk-fW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1319.8473282442746" y="-223.23943661971833"/>
+            <point key="canvasLocation" x="2245.0381679389311" y="-223.23943661971833"/>
+        </scene>
+        <!--First-->
+        <scene sceneID="uAk-mp-dlC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mnA-y8-80w" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="First" id="o1H-aZ-8Ht"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jKq-vF-RCh">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eUw-Sk-wmu" kind="relationship" relationship="rootViewController" id="48T-2F-BBn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6e6-HD-LOL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-211.4503816793893" y="-223.23943661971833"/>
         </scene>
     </scenes>
     <resources>
