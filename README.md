@@ -33,5 +33,9 @@
     - Scene 연결시 선택되는 show, show detail, Present Modally 등 어떤 기능인지 확인하
     - Segue 속성 확
     - [x] 다음 버튼을 누르면 색상이 변경된 화면이 나오는 2개의 viewController를 직렬로 연결
+    <img width="384" alt="1" src="https://user-images.githubusercontent.com/86761640/223926682-9623cb19-fa5f-403f-b761-af415a566a19.png">
+    <img width="374" alt="2" src="https://user-images.githubusercontent.com/86761640/223926689-41326983-a1f2-455e-9a3a-ede04917fffe.png">
+    <img width="394" alt="3" src="https://user-images.githubusercontent.com/86761640/223926696-37c06533-535f-4234-b968-ead5467f7096.png">
+
 6. 닫기 버튼 추가, 새로운 scene 닫힘 구현
 7. 이미지 추가기능 구현
