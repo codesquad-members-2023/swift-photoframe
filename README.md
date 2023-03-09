@@ -5,8 +5,8 @@
 
 <img src="https://user-images.githubusercontent.com/63908856/223042897-e4073356-dd9f-4704-89d8-690e5c36cd51.png">
 
-**step 1-1** 
-DUE-DATE: 2023-03-08
+**step 1-1**  
+DUE-DATE: 2023-03-09
 - [ ] iOS 프로젝트 그룹/타깃에 관해 학습
 - [ ] [Displaying and managing views with a view controller](https://developer.apple.com/documentation/uikit/view_controllers/displaying_and_managing_views_with_a_view_controller) 학습
 - [ ] [뷰 컨트롤러 생명주기](https://developer.apple.com/documentation/uikit/uiviewcontroller) 학습
@@ -25,12 +25,15 @@ DUE-DATE: 2023-03-10
 - [ ] [ImagePickerController](https://developer.apple.com/documentation/uikit/uiimagepickercontrollerdelegate/1619126-imagepickercontroller) 학습
 
 ## 업무용 체크리스트
-**step 1-1**
-DUE-DATE: 2023-03-08
-- [ ] iOS 프로젝트 생성 w/ App template
+**step 1-1**  
+DUE-DATE: 2023-03-09
+- [x] iOS 프로젝트 생성 w/ App template
     - [x] .gitignore 추가
-    - [ ] Storyboard interface 설정
-    - [ ] 나의 의도가 들어가지 않은 주석, 파일 삭제
+    commit: 9056dda34cd89e087d267723435dcd3b9fdedd08
+    - [x] Storyboard interface 설정
+    commit: 9f84b1e10cc252dd756013510ad55facda1b2b4e
+    - [x] 나의 의도가 들어가지 않은 주석, 파일 삭제
+    commit: cff5c501e18073c65524c36495c384a718062d41, 69194f9e0718a8b625f11a9931ce589975e70974
 - [ ] TabBarController 추가
     - [ ] InitialController 지정
     - [ ] Scene 추가
