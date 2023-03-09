@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="971.7557251908396" y="-636.61971830985919"/>
         </scene>
-        <!--View Controller-->
+        <!--show-->
         <scene sceneID="ZhO-Fr-8cD">
             <objects>
-                <viewController id="ksV-63-WdE" sceneMemberID="viewController">
+                <viewController title="show" id="ksV-63-WdE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1yE-uT-XBh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,10 +126,10 @@
             </objects>
             <point key="canvasLocation" x="1747" y="-1605"/>
         </scene>
-        <!--View Controller-->
+        <!--presentModally-->
         <scene sceneID="eZs-h4-lhh">
             <objects>
-                <viewController id="Fmz-Ea-c10" sceneMemberID="viewController">
+                <viewController title="presentModally" id="Fmz-Ea-c10" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LDD-Jo-ndA">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,10 +175,10 @@
             </objects>
             <point key="canvasLocation" x="1745.8015267175572" y="-847.18309859154931"/>
         </scene>
-        <!--View Controller-->
+        <!--presentAsPopover-->
         <scene sceneID="gRX-K2-6H2">
             <objects>
-                <viewController id="mIf-7u-A75" sceneMemberID="viewController">
+                <viewController title="presentAsPopover" id="mIf-7u-A75" sceneMemberID="viewController">
                     <view key="view" alpha="0.5" contentMode="scaleToFill" id="xSr-Y9-LHp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,10 +206,10 @@
             </objects>
             <point key="canvasLocation" x="2613" y="-847"/>
         </scene>
-        <!--View Controller-->
+        <!--showDetail-->
         <scene sceneID="LwT-jA-o31">
             <objects>
-                <viewController id="sLp-8w-C47" sceneMemberID="viewController">
+                <viewController title="showDetail" id="sLp-8w-C47" sceneMemberID="viewController">
                     <view key="view" alpha="0.5" contentMode="scaleToFill" id="Rtj-Ot-ekJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
