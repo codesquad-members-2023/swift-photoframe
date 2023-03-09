@@ -1,14 +1,14 @@
 # 1. 프로젝트 생성하기
 ## 학습할 개념
-- [ ] Fork
+- [x] Fork
 - [ ] PR merge
-- [ ] UITabBar
-- [ ] UITabBarController 차이
+- [x] UITabBar
+- [x] UITabBarController 차이
 
 ## 추가사항
-- [ ] UITabBarController와 차이
-- [ ] 관련 클래스
-- [ ] Delegate 개념 
+- [x] UITabBarController와 차이
+- [x] 관련 클래스
+- [x] Delegate 개념 
 
 ## 체크리스트
 - [x] TabBar Controller 생성 및 2개 뷰컨 연결
@@ -22,7 +22,7 @@
 
 ## 추가사항
 - [ ] IBOutlet 관련 속성/클래스
-- [ ] Xcode 드래그 이외의 연결 방법
+- [x] Xcode 드래그 이외의 연결 방법
 - [ ] IBOutlet의 weak 참조
 
 ## 실습
@@ -147,6 +147,7 @@
 <img width="400" alt="스크린샷 2023-03-06 오후 2 39 51" src="https://user-images.githubusercontent.com/84387335/223034337-51c0592d-8356-4d2e-8c79-05e4f2407a59.png">
 
 
+---
 
-
+개념 - [Notion](https://mixolydian-macadamia-d9b.notion.site/1-224cb0476547435295d39377b7340137)
 
