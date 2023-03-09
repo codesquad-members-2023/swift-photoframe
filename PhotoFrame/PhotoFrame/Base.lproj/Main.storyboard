@@ -73,21 +73,51 @@
             </objects>
             <point key="canvasLocation" x="-767.17557251908397" y="494.36619718309862"/>
         </scene>
-        <!--View Controller-->
+        <!--FirstViewNext-->
         <scene sceneID="k30-bN-4cR">
             <objects>
-                <viewController id="ja6-S9-8sG" sceneMemberID="viewController">
+                <viewController title="FirstViewNext" id="ja6-S9-8sG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sfF-7J-kUC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6F5-vP-Nc4">
+                                <rect key="frame" x="155" y="111" width="82" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="다음">
+                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Kk-Bm-42q" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="XzD-3V-jm1"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Pfd-Yg-4zl"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="GPv-xV-8Hj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aqb-55-2G3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2" y="494"/>
+            <point key="canvasLocation" x="0.76335877862595414" y="493.66197183098592"/>
+        </scene>
+        <!--BlueViewNext-->
+        <scene sceneID="hAZ-Rk-Ju0">
+            <objects>
+                <viewController title="BlueViewNext" id="8Kk-Bm-42q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BGw-o4-XW0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yAw-1w-PRW"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fwc-pe-TWj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="755" y="494"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wmx-nV-yyH">
@@ -111,6 +141,15 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
