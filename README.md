@@ -24,7 +24,7 @@
 - [x] Sence를 Segue로 연결하기
 <img src = "https://user-images.githubusercontent.com/97685264/223899257-28ce9a66-3b1b-45fa-97da-5cf8fbd3be3f.gif">
 
-- [ ] Seque에 액션에 있는 여러 항목들은 어떤 효과가 있는지 값을 바꿔보며 실행해서 학습하기
+- [x] Segue에 액션에 있는 여러 항목들은 어떤 효과가 있는지 값을 바꿔보며 실행해서 학습하기(학습-5)
 
 1-5
 - [ ] ViewController 연결하기
