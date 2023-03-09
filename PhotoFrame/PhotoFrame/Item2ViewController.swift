@@ -10,12 +10,12 @@ import UIKit
 class Item2ViewController: UIViewController {
 
     @IBOutlet weak var secondDesc: UILabel!
-    @IBOutlet weak var secondScene: UILabel!
+    @IBOutlet weak var secondView: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.secondScene.textColor = .blue
-        self.secondScene.alpha = 1.0
+        self.secondView.textColor = .blue
+        self.secondView.alpha = 1.0
         
         self.secondDesc.textColor = .cyan
         self.secondDesc.alpha = 0.5
