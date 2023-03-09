@@ -12,6 +12,7 @@
 - [x] TabBarController의 이해
 - [ ] TabBar와 TabBarController의 차이
 - [ ] 과제 print 함수의 파라미터들 의미
+- [ ] 
 
 2.작업 체크리스트
 - [x] .gitignore 파일 생성 
@@ -24,6 +25,11 @@
 - [x] viewDidLoad 함수 영역에 print함수 추가
 - [x] 불필요한 주석 삭제
     1. 파일 자체는 빌드에 필요하기 때문에 남겨놓음
-
+- [x] 이전 스텝 피드백 반영하여 Readme파일 수정
+- [x] 불필요 함수 삭제
+- [x] Label 추가
+- [x] Label 과 viewController 연결
+- [x] viewController 이름 변경
+- [x] Label 속성 변경 코드 작성
 # 과제 실행 결과
 <img width="897" alt="Screenshot 2023-03-08 at 2 13 28 AM" src="https://user-images.githubusercontent.com/57861751/223767293-c4e6f7c3-6fde-434b-bfd8-ef9317625dd6.png">
