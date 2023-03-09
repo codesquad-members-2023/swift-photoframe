@@ -1,7 +1,3 @@
-# ❗️swift-photoframe❗️
-1주차 사진액자 프로젝트
-
-- - -
 # ❗️학습❗️
 ### 1. UITabBarController 와 UITabBar에 대해 학습하기
 #### UITabBar란 하나의 뷰이고, 화면 하단에 위치해있다. radio style이라 한번에 하나만 선택이 가능하다.
