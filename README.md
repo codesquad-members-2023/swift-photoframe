@@ -27,9 +27,9 @@
 
 ## 실습
 - [x] 라벨 생성 및 연결
-- [ ] 라벨 변경
-- [ ] 2번째 레이블 연결
-- [ ] 출력 결과
+- [x] 라벨 변경
+- [x] 2번째 레이블 연결
+- [x] 출력 결과
 
 
 # 3. IBAction 연결하기
@@ -139,6 +139,7 @@
 
 
 # 실습
+## 1. 프로젝트 생성하기
 ## 완성 시간 : 3/6 14:40
 ## 설명
 1. TabBar Controller 생성
@@ -146,6 +147,23 @@
 ### 출력 사진
 <img width="400" alt="스크린샷 2023-03-06 오후 2 39 51" src="https://user-images.githubusercontent.com/84387335/223034337-51c0592d-8356-4d2e-8c79-05e4f2407a59.png">
 
+## 2. IBOutlet 연결하기
+## 주요기능
+- Label을 스토리보드에 연결 및 텍스트 수정
+- IBOutlet 관련 속성 학습
+- Storyboard와 코드에서 변경가능한 속성의 차이점 학습
+- HIG Typography 학습
+### 출력 사진
+<img width="300" height = "500" alt="스크린샷 2023-03-08 오후 2 07 26" src="https://user-images.githubusercontent.com/84387335/224207209-67553f63-d28d-459c-8846-7dcdb81c0e4e.png">
+
+## 3. IBAction 연결하기
+## 주요 기능
+- 버튼을 생성 후 IBAction 연결
+- 버튼에 추가적인 On/Off 기능 구현
+- 컨트롤러 - 뷰 와의 관계 학습
+- IBOutlet의 weak 참조 이유 학습
+### 출력 사진
+![Simulator Screen Recording - iPhone 14 Pro - 2023-03-10 at 11 31 50](https://user-images.githubusercontent.com/84387335/224208393-f4cfb83f-03d2-4c1c-b059-a26b6b42c95d.gif)
 
 ---
 
