@@ -12,5 +12,11 @@ class FirstView: UIViewController, UITextFieldDelegate {
         print(#file, #line, #function, #column)
         self.firstLabel.text = "JK의 사진액자"
     }
+    
+    @IBAction func nextButtonTouched(_ sender: Any) {
+        self.firstLabel.textColor = UIColor.blue
+        self.firstLabel.backgroundColor = UIColor.yellow
+        self.firstLabel.alpha = 0.5
+    }
 }
 
