@@ -55,6 +55,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
                                     <action selector="nextButtonTouched:" destination="WzP-iT-54c" eventType="touchUpInside" id="0Bu-O3-4yT"/>
+                                    <segue destination="oue-Gf-baL" kind="show" id="mi2-ke-M7c"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,6 +71,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38H-p6-j8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-130.40000000000001" y="590.39408866995075"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RXC-7L-6Ho">
+            <objects>
+                <viewController id="oue-Gf-baL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pd1-Tv-sjJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0O-1U-JhF">
+                                <rect key="frame" x="161" y="198" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                                <connections>
+                                    <segue destination="sZ4-hY-nki" kind="show" id="uIo-HG-XeL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jq9-vs-bCp"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jjS-It-RnX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nlJ-tH-8cU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="590"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R6i-wQ-vz3">
+            <objects>
+                <viewController id="sZ4-hY-nki" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="snA-kR-Cja">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ks3-Rj-W8O"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NQk-ME-qCB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="weZ-0K-ACJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1372" y="590"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DXe-kS-hTY">
@@ -90,6 +134,7 @@
             <point key="canvasLocation" x="-1198" y="276"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="systemPinkColor"/>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -99,6 +144,12 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
