@@ -19,6 +19,7 @@
     - Assistant Editor 모드로 변경
     - IBOutlet 연
     - [x] firstLabel 커스텀
+    - [x] feedback: 라벨이름 변경, firstView의 label이라는 의미로 변경
 4. 버튼 추가
     - [x] IBAction 연결
     - 버튼 탭 전
@@ -27,6 +28,7 @@
     - 버튼 탭 후
     
         <img width="391" alt="2" src="https://user-images.githubusercontent.com/86761640/223652443-46d97d3e-0cf9-44c3-9fea-01bbd906604a.png">
+    - [x] feedback: 주석 제거
 5. 버튼 클릭시 새로운 scene 구현
     - [x] ViewController 생성
     - [x] Scene 연결

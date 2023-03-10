@@ -52,8 +52,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
-                                    <action selector="nextButtonTouched:" destination="eUw-Sk-wmu" eventType="touchUpInside" id="91A-hd-Qlg"/>
-                                    <segue destination="vGF-NY-z4g" kind="show" id="hZJ-Jv-DoK"/>
+                                    <action selector="nextButtonTouched:" destination="eUw-Sk-wmu" eventType="touchUpInside" id="rDX-DM-2BJ"/>
+                                    <segue destination="vGF-NY-z4g" kind="show" id="fey-4B-6oT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,8 +62,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="shw-Yt-pzI"/>
                     <connections>
-                        <outlet property="firstDescription" destination="V8f-sz-eWw" id="0g1-zp-SBe"/>
-                        <outlet property="firstTitle" destination="eOE-O6-kMv" id="K69-aX-p5j"/>
+                        <outlet property="firstViewDescription" destination="V8f-sz-eWw" id="c9a-lO-9Id"/>
+                        <outlet property="firstViewTitle" destination="eOE-O6-kMv" id="T7h-Lm-cwx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhT-Ug-7HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
