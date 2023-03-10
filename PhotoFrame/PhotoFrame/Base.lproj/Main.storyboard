@@ -65,6 +65,7 @@
                     <connections>
                         <outlet property="firstDescription" destination="hM5-1x-KE1" id="DuO-l8-Mb8"/>
                         <outlet property="firstLabel" destination="vum-4x-VlQ" id="XhN-Y2-gZ6"/>
+                        <outlet property="nextButton" destination="gbU-Q2-EWF" id="q3n-Fp-hvF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l69-rw-SGs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
