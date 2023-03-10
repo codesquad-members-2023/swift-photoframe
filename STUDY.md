@@ -150,3 +150,7 @@ viewDidDisappear : 뷰가 사라진 후 실행됨
 <img width="604" src="https://user-images.githubusercontent.com/97685264/224203754-e3d93bec-da7f-463b-8ae5-0ecbdeeedcfb.png">
 
 - - -
+#### 9. 내비게이션 컨트롤러가 있을 경우와 없을 경우 화면 전환 동작이 어떻게 다른지, 화면들 포함관계가 있는지 학습하기
+segue를 사용했을때는 네비게이션바가 자동으로 생성되어 화면동작을 위한 코드를 따로 작성하지 않도라도 정상적은 실행이 가능하다.
+
+
