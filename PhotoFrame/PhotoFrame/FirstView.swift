@@ -17,15 +17,15 @@ class FirstView: UIViewController, UITextFieldDelegate {
     // 버튼을 누르고 한번 더 누를 시 원래 레이블 색상으로 돌아가도록 기능 추가
     // 버튼의 isSelected속성을 사용하여 성공
     @IBAction func nextButtonTouched(_ sender: Any) {
-        if is nextButton.isSelected {
-            self.firstLabel.textColor = UIColor.blue
-            self.firstLabel.backgroundColor = UIColor.yellow
-            self.firstLabel.alpha = 0.5
-            nextButton.isSelected = false
-        } else {
+        if nextButton.isSelected {
             self.firstLabel.textColor = UIColor.white
             self.firstLabel.backgroundColor = UIColor.purple
             self.firstLabel.alpha = 1
+            nextButton.isSelected = false
+        } else {
+            self.firstLabel.textColor = UIColor.blue
+            self.firstLabel.backgroundColor = UIColor.yellow
+            self.firstLabel.alpha = 0.5
             nextButton.isSelected = true
         }
     }
