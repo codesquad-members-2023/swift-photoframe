@@ -1,6 +1,6 @@
 import UIKit
 
-class FirstView: UIViewController, UITextFieldDelegate {
+class FirstTabViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
     // 기존의 연결방식이 작동되지 않는 경우가 있어 새로운 연결방식을 학습 후 연결하여 해결함
