@@ -48,5 +48,5 @@
     - [x] closeButtonTouched 동작 변경   
     <img width="386" alt="스크린샷 2023-03-09 오후 3 27 20" src="https://user-images.githubusercontent.com/86761640/223938770-0b38f10d-5991-4a42-8956-af1c56c7bc02.png">
     <img width="364" alt="스크린샷 2023-03-09 오후 3 27 25" src="https://user-images.githubusercontent.com/86761640/223938786-a5b39091-f07e-4fb2-bc82-1ac01e578938.png">
-
+    - dismiss는 모달을 제거하는 것으로 popViewController를 사용해야 현재 뷰 컨트롤러를 제거하고 이전뷰로 돌아갈 수 있음
 8. 이미지 추가기능 구현
