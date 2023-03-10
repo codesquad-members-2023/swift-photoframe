@@ -43,11 +43,29 @@
 
 ### 학습 List
 
-- [ ] IBOutlet
-- [ ] UILabel
-- [ ] UILabel 클래스의 속
-- [ ] storyboard
+- [x] IBOutlet
+- [x] UILabel
+- [x] UILabel 클래스의 속성
+- [x] storyboard
 
 ### 실행 화면 캡쳐
 
 <img height="844" src="https://velog.velcdn.com/images/harimrim/post/47e5e6e2-7a9c-4bce-bc5f-42b68d604143/image.png">
+
+## 1-3 IBAction 연결하기
+
+### Check List
+
+- [x] 1-2 피드백 내용 수정
+- [x] Main.storyBoard 의 First Scene 에 UIButton 추가
+- [ ] Button 의 Title 을 “다음” 으로 변경
+- [ ] Button을 ViewController에 IBAction으로 연결한다. Action 이름은 “nextButtonTouched”로 지정
+- [ ] nextButtonToucehd() 메서드에 로직 구현
+- [ ] Botton을 터치하기 전 / 후 화면을 캡쳐해서 [readme.md](http://readme.md) 파일에 추가
+
+### 학습 List
+
+- [ ] IBOutlet 과 IBAction 의 연결 구조
+- [ ] Button 에 IBAction을 추가할 때 Event의 종류
+- [ ] 하나의 Button 에 여러 Action이 가능한가
+- [ ] 여러 Button들을 하나의 Action에 연결할 수 있는가
