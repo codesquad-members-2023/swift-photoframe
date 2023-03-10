@@ -27,6 +27,8 @@ class TabBarFirstSceneViewController: UIViewController {
         self.firstDescriptionLabel.layer.shadowOffset = CGSize(width: 0, height: 10)
     }
 
-
+    @IBAction func nextButtonTouched(_ sender: Any) {
+    }
+    
 }
 
