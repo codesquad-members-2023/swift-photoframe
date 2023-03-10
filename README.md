@@ -103,10 +103,30 @@ control + 드래그로 Outlet변수 선언+연결을 할 수 있다.
         액션 함수가 실행되도록 이벤트를 보내는 객체
         
 ### Scene 을 Segue로 연결하기    
-- Scene ?
-    - 
-- Segue ?
-    - 
+
+- Scene 
+    - 화면이나 사용자 인터페이스에 표시할 수 있는 컨텐츠를 시각적으로 한 장면에 표현함.
+    
+- Segue 
+    - 사용자의 액션 등에 의한 두개의 ViewController 사이의 장면 전환을 의미함. 
+    
+- Segue 액션의 종류 
+    Show : 가장 기본적인 세그. stack구조로 새 화면이 원래 화면을 덮는 형식.
+    Show Detail : 화면을 둘로 나누는 SplitView 구조로 원래 화면을 Master, 새 화면을 Detail로 표시. 아이패드 처럼 큰 화면에서 둘로 분할됨.
+    Present Modally : 새 화면이 모달처럼 원래 화면 위 전체를 뒤덮음. 원래 화면은 새 화면 뒤에 그대로 존재
+    Popover Presentation : 화면이 큰 아이패드에서 팝업창을 띄움.
+    Custom : 사용자 정의 세그를 만듬.
+
+- 똑같아 보이는데? Show 와 Present Modally의 차이점 
+    - Show는 전환 애니메이션이 Default , Present Md는 아니다. 
+    - Show는 navigation controller에서 쓰이고 , Present Md는 아니다. 
+        
+        <img width="359" alt="스크린샷 2023-03-10 오전 11 42 10" src="https://user-images.githubusercontent.com/88966578/224209694-57a72e34-e783-494f-b293-dfc723a6f104.png">
+
+    - Show는 새로운 Viewcontroller를 navigation stack에 올리는 반면, Present Md는 아니다. 
+      (..마음에 와닿진 않는다.)
+      
+   ![Simulator_Screen_Recording_-_iPhone_14_Pro_-_2023-03-10_at_11_33_13_AdobeExpress](https://user-images.githubusercontent.com/88966578/224209399-545f8667-ce52-4100-84ae-3edfdb949289.gif)
 
 ### ViewController 연결하기
 
