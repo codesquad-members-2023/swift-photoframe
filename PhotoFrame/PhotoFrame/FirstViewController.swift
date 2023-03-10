@@ -8,9 +8,9 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
-    @IBOutlet weak var photoLabel: UILabel!
-    @IBOutlet weak var photoDescription: UILabel!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var description: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(#file, #line, #function, #column)
@@ -20,6 +20,7 @@ class FirstViewController: UIViewController {
         self.photoLabel.font = UIFont.systemFont(ofSize: 15)
         self.photoDescription.text = "사진에 대한 설명 Label"
     }
+    
     @IBAction func nextButtonTouched(_ sender: Any) {
         self.photoLabel.textColor = UIColor.blue
         self.photoLabel.backgroundColor = UIColor.yellow
