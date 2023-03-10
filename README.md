@@ -150,9 +150,6 @@
 ## 2. IBOutlet 연결하기
 ## 주요기능
 - Label을 스토리보드에 연결 및 텍스트 수정
-- IBOutlet 관련 속성 학습
-- Storyboard와 코드에서 변경가능한 속성의 차이점 학습
-- HIG Typography 학습
 ### 출력 사진
 <img width="300" height = "500" alt="스크린샷 2023-03-08 오후 2 07 26" src="https://user-images.githubusercontent.com/84387335/224207209-67553f63-d28d-459c-8846-7dcdb81c0e4e.png">
 
@@ -160,12 +157,10 @@
 ## 주요 기능
 - 버튼을 생성 후 IBAction 연결
 - 버튼에 추가적인 On/Off 기능 구현
-- 컨트롤러 - 뷰 와의 관계 학습
-- IBOutlet의 weak 참조 이유 학습
 ### 출력 사진
 ![Simulator Screen Recording - iPhone 14 Pro - 2023-03-10 at 11 31 50](https://user-images.githubusercontent.com/84387335/224208393-f4cfb83f-03d2-4c1c-b059-a26b6b42c95d.gif)
 
 ---
 
-개념 - [Notion](https://mixolydian-macadamia-d9b.notion.site/1-224cb0476547435295d39377b7340137)
+학습 개념 정리 - [Notion](https://mixolydian-macadamia-d9b.notion.site/1-224cb0476547435295d39377b7340137)
 
