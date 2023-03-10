@@ -142,5 +142,11 @@ viewDidDisappear : 뷰가 사라진 후 실행됨
     UIKit 프레임워크는 UICollectionView. 
     유연하고 변경 가능한 레이아웃을 사용하여 데이터 아이템의 정렬된 세트를 표시
 - - -
+### 8. 뷰컨트롤러 컨테이너는 또 어떤 클래스가 있을까?
+(1) 뷰 컨트롤러 컨테이너란? 여러개의 뷰 컨트롤러를 하나의 화면에 나타내는 것.
+(2) 뷰컨트롤러 컨테이너의 클래스 : UINavigationController, UITabBarController, UISplitViewController
 
+예를들어 뷰컨트롤러 컨테이너(네비게이션뷰) 구조
+<img width="604" src="https://user-images.githubusercontent.com/97685264/224203754-e3d93bec-da7f-463b-8ae5-0ecbdeeedcfb.png">
 
+- - -

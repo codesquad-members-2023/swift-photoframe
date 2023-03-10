@@ -17,10 +17,8 @@ class PhotoFrameViewController: UIViewController {
         
         print(#file, #line, #function, #column)
         
-        
         self.firstPhotoFrameLabel.text = "haena의 사진액자"
         self.firstPhotoFrameLabel.textColor = self.firstPhotoFrameLabel.textColor.withAlphaComponent(0.5)
-        
         
         firstPhotoFrameDescriptionLabel.text = "밑에있지롱"
         firstPhotoFrameDescriptionLabel.textColor = .blue
@@ -28,15 +26,12 @@ class PhotoFrameViewController: UIViewController {
         firstPhotoFrameDescriptionLabel.backgroundColor = .orange
     }
 
-   
     @IBAction func nextButtonTouched(_ sender: Any) {
         self.firstPhotoFrameLabel.textColor = UIColor.blue
         self.firstPhotoFrameLabel.backgroundColor = UIColor.yellow
         self.firstPhotoFrameLabel.alpha = 0.5
         
     }
-    
-    
     
 }
 
