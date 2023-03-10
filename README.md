@@ -111,13 +111,18 @@ control + 드래그로 Outlet변수 선언+연결을 할 수 있다.
     - 사용자의 액션 등에 의한 두개의 ViewController 사이의 장면 전환을 의미함. 
     
 - Segue 액션의 종류 
+
     Show : 가장 기본적인 세그. stack구조로 새 화면이 원래 화면을 덮는 형식.
+    
     Show Detail : 화면을 둘로 나누는 SplitView 구조로 원래 화면을 Master, 새 화면을 Detail로 표시. 아이패드 처럼 큰 화면에서 둘로 분할됨.
+    
     Present Modally : 새 화면이 모달처럼 원래 화면 위 전체를 뒤덮음. 원래 화면은 새 화면 뒤에 그대로 존재
+    
     Popover Presentation : 화면이 큰 아이패드에서 팝업창을 띄움.
+    
     Custom : 사용자 정의 세그를 만듬.
 
-- 똑같아 보이는데? Show 와 Present Modally의 차이점 
+- 이름말고는 똑같아 보이는데? Show 와 Present Modally의 차이점 
     - Show는 전환 애니메이션이 Default , Present Md는 아니다. 
     - Show는 navigation controller에서 쓰이고 , Present Md는 아니다. 
         
