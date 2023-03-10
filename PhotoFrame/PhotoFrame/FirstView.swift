@@ -1,6 +1,6 @@
 import UIKit
 
-class FirstScene: UIViewController, UITextFieldDelegate {
+class FirstView: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
     // 새로운 연결 방법으로 레이블을 뷰컨과 연결.
