@@ -27,7 +27,7 @@
         <!--Item 1-->
         <scene sceneID="cxi-Ei-5KA">
             <objects>
-                <viewController id="Vrx-JL-46W" customClass="ViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vrx-JL-46W" customClass="TabBarFirstSceneViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5oC-u3-sFP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="0YS-Ye-xbu"/>
                     <connections>
-                        <outlet property="firstDescription" destination="JQo-eo-sQ4" id="BRo-lg-Zi3"/>
+                        <outlet property="firstDescriptionLabel" destination="JQo-eo-sQ4" id="BRo-lg-Zi3"/>
                         <outlet property="photoLabel" destination="LXG-1u-9Pe" id="PtT-ZV-LGz"/>
                     </connections>
                 </viewController>
