@@ -40,3 +40,10 @@ upstream [울버린] 브랜치에 addGitIgnore 브랜치가 반영되었다. 아
     후 PUSH
     
     - GUI 환경에서는 stop tracking 옵션 이용하자.
+
+
+### PR 승인 대기중에 다른 작업을 시작했고, 그 작업 도중에 승인이 났을 때 
+    
+   - Interactive rebase로 , 충돌 커밋을 제외한 뒤 rebase가능. 로컬을 rebase하고, push하여 리모트와 동기화해주자. (push force는 하지마.) 
+   - 불필요한 커밋 제외할 땐, Cherry-pick 이나 Interactive rebase를 활용하자. 
+    
