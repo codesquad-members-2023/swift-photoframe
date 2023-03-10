@@ -9,15 +9,15 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    @IBOutlet weak var firstTitle: UILabel!
-    @IBOutlet weak var firstDescription: UILabel!
+    @IBOutlet weak var firstViewTitle: UILabel!
+    @IBOutlet weak var firstViewDescription: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print(#file, #line, #function, #column)
         
-        self.firstTitle.text = "Sol의 액자"
+        self.firstViewTitle.text = "Sol의 액자"
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -43,9 +43,9 @@ class FirstViewController: UIViewController {
     
     
     @IBAction func nextButtonTouched(_ sender: UIButton) {
-        self.firstTitle.textColor = UIColor.blue
-        self.firstTitle.backgroundColor = UIColor.yellow
-        self.firstTitle.alpha = 0.5
+        self.firstViewTitle.textColor = UIColor.blue
+        self.firstViewTitle.backgroundColor = UIColor.yellow
+        self.firstViewTitle.alpha = 0.5
     }
     
 }
