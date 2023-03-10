@@ -48,6 +48,12 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="systemGreenColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbU-Q2-EWF">
+                                <rect key="frame" x="170" y="222" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yYE-0j-HaR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
