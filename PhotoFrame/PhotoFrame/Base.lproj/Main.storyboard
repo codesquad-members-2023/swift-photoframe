@@ -64,8 +64,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="vck-ui-FUI"/>
                     <connections>
-                        <outlet property="photoDescription" destination="YC2-gA-Ymo" id="84T-tU-wtj"/>
-                        <outlet property="photoLabel" destination="6yK-Yx-D7d" id="wg7-ZH-b3y"/>
+                        <outlet property="descriptionLabel" destination="YC2-gA-Ymo" id="DaR-oo-XRB"/>
+                        <outlet property="titleLabel" destination="6yK-Yx-D7d" id="Gwp-Ha-eaM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38H-p6-j8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
